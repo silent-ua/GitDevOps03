@@ -11,4 +11,5 @@ docker run -it --rm centos /bin/bash\
 [root@4e7a3d7c3958 /]# echo $0\
 /bin/bash\
 
+DDDD
 
