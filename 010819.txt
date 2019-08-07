@@ -1,5 +1,5 @@
 this is a test
 second line of text
 third line of text
-fourth line..
+fourth line is changed in this branch relative to master
 EOF
