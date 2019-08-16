@@ -48,6 +48,14 @@
           <param name="loginCheckbox" value="on" />
         </parameters>
       </extension>
+      <extension id="BUILD_EXT_1" type="pullRequests">
+        <parameters>
+          <param name="authenticationType" value="vcsRoot" />
+          <param name="filterAuthorRole" value="MEMBER" />
+          <param name="providerType" value="github" />
+          <param name="vcsRootId" value="GitDevOps03_HttpsGithubComSilentUaGitDevOps03gitRefsHeadsMaster" />
+        </parameters>
+      </extension>
     </build-extensions>
     <cleanup />
   </settings>

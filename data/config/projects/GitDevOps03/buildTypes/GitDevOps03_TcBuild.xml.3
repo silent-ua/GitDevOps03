@@ -4,7 +4,21 @@
   <description />
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_1" name="build docker image" type="DockerCommand">
+        <parameters>
+          <param name="command.args" value="--pull" />
+          <param name="docker.command.type" value="build" />
+          <param name="docker.image.namesAndTags" value="%build.vcs.number%:" />
+          <param name="docker.push.remove.image" value="true" />
+          <param name="dockerImage.platform" value="linux" />
+          <param name="dockerfile.contextDir" value="/" />
+          <param name="dockerfile.path" value="Dockerfile_nginx" />
+          <param name="dockerfile.source" value="PATH" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="GitDevOps03_HttpsGithubComSilentUaGitDevOps03gitRefsHeadsMaster" />
     </vcs-settings>
