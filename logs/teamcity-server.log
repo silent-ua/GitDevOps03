@@ -301,3 +301,46 @@ Collecting changes failed: jetbrains.buildServer.buildTriggers.vcs.git.submodule
 [2019-08-16 14:25:13,749]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #5 {build id=5, buildTypeId=GitDevOps03_TcBuild}
 [2019-08-16 14:25:13,751]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 5, finish date: 2019-08-16 14:25:13.744
 [2019-08-16 14:25:13,758]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #5 {promotion id=5, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 14:25:12.994, finished. Status "FAILURE 'Unable to collect changes'"}
+[2019-08-16 14:29:00,435]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=6, promotion=Build promotion {promotion id=6, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-16 14:29:00,439]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=6, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')}
+[2019-08-16 14:29:00,450]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=6, promotion id=6
+[2019-08-16 14:29:00,458]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #6 {promotion id=6, branch=<default>, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-16 14:29:00.448, running}
+[2019-08-16 14:29:00,460]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 6
+[2019-08-16 14:29:00,461]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 14ms, number of builds started: 1
+[2019-08-16 14:29:08,048]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #6 {build id=6, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:08,048]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #6 {build id=6, buildTypeId=GitDevOps03_TcBuild}, task id: 14
+[2019-08-16 14:29:08,049]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #6 {build id=6, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:08,052]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #6 {build id=6, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:08,054]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 6, finish date: 2019-08-16 14:29:08.003
+[2019-08-16 14:29:08,102]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #6 {promotion id=6, branch=<default>, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-16 14:29:01.415, finished. Status "FAILURE 'Exit code 125 (Step: build docker image (Docker))'"}
+[2019-08-16 14:29:13,606]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=7, promotion=Build promotion {promotion id=7, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-16 14:29:13,609]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=7} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-16 14:29:13,610]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=7, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-16 14:29:13,625]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=7, promotion id=7
+[2019-08-16 14:29:13,627]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #7 {promotion id=7, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 14:29:13.623, running}
+[2019-08-16 14:29:13,627]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 7
+[2019-08-16 14:29:13,627]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 7ms, number of builds started: 1
+[2019-08-16 14:29:18,375]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #7 {build id=7, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:18,376]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #7 {build id=7, buildTypeId=GitDevOps03_TcBuild}, task id: 16
+[2019-08-16 14:29:18,377]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #7 {build id=7, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:18,379]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #7 {build id=7, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:29:18,381]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 7, finish date: 2019-08-16 14:29:18.343
+[2019-08-16 14:29:18,392]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #7 {promotion id=7, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 14:29:14.355, finished. Status "FAILURE 'Exit code 125 (Step: build docker image (Docker))'"}
+[2019-08-16 14:31:19,420]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 5, version after: 6") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-16 14:31:29,431]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-16 14:31:29,432]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-16 14:31:29,432]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-16 14:31:29,434]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-16 14:31:37,938]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=8, promotion=Build promotion {promotion id=8, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-16 14:31:37,940]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=8} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-16 14:31:37,943]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=8, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-16 14:31:37,958]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=8, promotion id=8
+[2019-08-16 14:31:37,960]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #8 {promotion id=8, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 14:31:37.956, running}
+[2019-08-16 14:31:37,960]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 8
+[2019-08-16 14:31:37,962]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 7ms, number of builds started: 1
+[2019-08-16 14:31:54,007]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #8 {build id=8, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:31:54,008]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #8 {build id=8, buildTypeId=GitDevOps03_TcBuild}, task id: 18
+[2019-08-16 14:31:54,009]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #8 {build id=8, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:31:54,012]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #8 {build id=8, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:31:54,014]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 8, finish date: 2019-08-16 14:31:53.963
+[2019-08-16 14:31:54,029]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #8 {promotion id=8, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 14:31:40.428, finished. Status "FAILURE 'Exit code 1 (Step: build docker image (Docker)) (new)'"}

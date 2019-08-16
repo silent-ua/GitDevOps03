@@ -5156,3 +5156,1329 @@ COMMIT
 DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='lastCheckingForChangesTime=1565965510124\u000a' AND UPDATE_DATE=1565965513307
 INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'lastCheckingForChangesTime=1565965579645\u000a',1565965633309)
 COMMIT
+INSERT INTO NODE_EVENTS VALUES(164,'vcsRootConnectionSuccessful',1,NULL,'bt1','MAIN_SERVER','2019-08-16 14:28:45.676000')
+COMMIT
+INSERT INTO IDS_GROUP VALUES(1,'2e3df42eaa13ada52be0f5e9c1522bc90d4bd689')
+INSERT INTO IDS_GROUP_ENTITY_ID VALUES(1,'bt1')
+COMMIT
+INSERT INTO VCS_HISTORY VALUES(1,'spaceantoxa','\u0009new file:   Dockerfile\u000a\u0009modified:   Dockerfile_nginx\u000a',1565963832000,1565965725723,1,353,'8c6dc2d3cd372641785cad28ecae2813419ad610','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,1,'Dockerfile',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,2,'Dockerfile_nginx',NULL,0,NULL,NULL,0,'edited','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,3,'agent/conf/buildAgent.dist.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,4,'agent/conf/buildAgent.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,5,'agent/conf/log4j.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,6,'agent/conf/teamcity-agent-log4j.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,7,'data/config/_auth/auth-preset.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,8,'data/config/_auth/default.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,9,'data/config/_auth/default.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,10,'data/config/_auth/ldap-ntlm.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,11,'data/config/_auth/ldap-ntlm.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,12,'data/config/_auth/ldap.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,13,'data/config/_auth/ldap.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,14,'data/config/_auth/nt-domain.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,15,'data/config/_auth/nt-domain.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,16,'data/config/_logging/debug-ClearCase.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,17,'data/config/_logging/debug-ClearCase.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,18,'data/config/_logging/debug-SVN.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,19,'data/config/_logging/debug-SVN.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,20,'data/config/_logging/debug-all.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,21,'data/config/_logging/debug-all.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,22,'data/config/_logging/debug-auth.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,23,'data/config/_logging/debug-auth.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,24,'data/config/_logging/debug-cleanup.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,25,'data/config/_logging/debug-cleanup.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,26,'data/config/_logging/debug-cloud.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,27,'data/config/_logging/debug-cloud.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,28,'data/config/_logging/debug-flaky-tests.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,29,'data/config/_logging/debug-flaky-tests.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,30,'data/config/_logging/debug-general.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,31,'data/config/_logging/debug-general.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,32,'data/config/_logging/debug-issue-trackers.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,33,'data/config/_logging/debug-issue-trackers.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,34,'data/config/_logging/debug-ldap.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,35,'data/config/_logging/debug-ldap.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,36,'data/config/_logging/debug-notifications.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,37,'data/config/_logging/debug-notifications.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,38,'data/config/_logging/debug-rest.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,39,'data/config/_logging/debug-rest.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,40,'data/config/_logging/debug-sql.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,41,'data/config/_logging/debug-sql.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,42,'data/config/_logging/debug-vcs.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,43,'data/config/_logging/debug-vcs.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,44,'data/config/_logging/debug-versioned-settings.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,45,'data/config/_logging/debug-versioned-settings.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,46,'data/config/_logging/debug-ws.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,47,'data/config/_logging/debug-ws.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,48,'data/config/_logging/debug-xml-rpc.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,49,'data/config/_logging/debug-xml-rpc.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,50,'data/config/_logging/log4j.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,51,'data/config/_notifications/email/build_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,52,'data/config/_notifications/email/build_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,53,'data/config/_notifications/email/build_failed_to_start.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,54,'data/config/_notifications/email/build_failed_to_start.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,55,'data/config/_notifications/email/build_failing.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,56,'data/config/_notifications/email/build_failing.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,57,'data/config/_notifications/email/build_probably_hanging.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,58,'data/config/_notifications/email/build_probably_hanging.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,59,'data/config/_notifications/email/build_problem_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,60,'data/config/_notifications/email/build_problem_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,61,'data/config/_notifications/email/build_problem_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,62,'data/config/_notifications/email/build_problem_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,63,'data/config/_notifications/email/build_problems_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,64,'data/config/_notifications/email/build_problems_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,65,'data/config/_notifications/email/build_problems_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,66,'data/config/_notifications/email/build_problems_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,67,'data/config/_notifications/email/build_started.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,68,'data/config/_notifications/email/build_started.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,69,'data/config/_notifications/email/build_successful.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,70,'data/config/_notifications/email/build_successful.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,71,'data/config/_notifications/email/build_type_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,72,'data/config/_notifications/email/build_type_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,73,'data/config/_notifications/email/build_type_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,74,'data/config/_notifications/email/build_type_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,75,'data/config/_notifications/email/common.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,76,'data/config/_notifications/email/common.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,77,'data/config/_notifications/email/email-config.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,78,'data/config/_notifications/email/email-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,79,'data/config/_notifications/email/email_verification.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,80,'data/config/_notifications/email/email_verification.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,81,'data/config/_notifications/email/labeling_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,82,'data/config/_notifications/email/labeling_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,83,'data/config/_notifications/email/multiple_test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,84,'data/config/_notifications/email/multiple_test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,85,'data/config/_notifications/email/multiple_test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,86,'data/config/_notifications/email/multiple_test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,87,'data/config/_notifications/email/mute.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,88,'data/config/_notifications/email/mute.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,89,'data/config/_notifications/email/reset_password.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,90,'data/config/_notifications/email/reset_password.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,91,'data/config/_notifications/email/responsibility.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,92,'data/config/_notifications/email/responsibility.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,93,'data/config/_notifications/email/test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,94,'data/config/_notifications/email/test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,95,'data/config/_notifications/email/test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,96,'data/config/_notifications/email/test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,97,'data/config/_notifications/email/tests_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,98,'data/config/_notifications/email/tests_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,99,'data/config/_notifications/email/tests_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,100,'data/config/_notifications/email/tests_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,101,'data/config/_notifications/feed/feed-item-template.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,102,'data/config/_notifications/feed/feed-item-template.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,103,'data/config/_notifications/ide_notificator/build_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,104,'data/config/_notifications/ide_notificator/build_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,105,'data/config/_notifications/ide_notificator/build_failed_to_start.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,106,'data/config/_notifications/ide_notificator/build_failed_to_start.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,107,'data/config/_notifications/ide_notificator/build_failing.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,108,'data/config/_notifications/ide_notificator/build_failing.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,109,'data/config/_notifications/ide_notificator/build_probably_hanging.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,110,'data/config/_notifications/ide_notificator/build_probably_hanging.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,111,'data/config/_notifications/ide_notificator/build_started.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,112,'data/config/_notifications/ide_notificator/build_started.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,113,'data/config/_notifications/ide_notificator/build_successful.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,114,'data/config/_notifications/ide_notificator/build_successful.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,115,'data/config/_notifications/ide_notificator/build_type_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,116,'data/config/_notifications/ide_notificator/build_type_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,117,'data/config/_notifications/ide_notificator/build_type_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,118,'data/config/_notifications/ide_notificator/build_type_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,119,'data/config/_notifications/ide_notificator/common.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,120,'data/config/_notifications/ide_notificator/common.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,121,'data/config/_notifications/ide_notificator/labeling_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,122,'data/config/_notifications/ide_notificator/labeling_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,123,'data/config/_notifications/ide_notificator/multiple_test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,124,'data/config/_notifications/ide_notificator/multiple_test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,125,'data/config/_notifications/ide_notificator/multiple_test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,126,'data/config/_notifications/ide_notificator/multiple_test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,127,'data/config/_notifications/ide_notificator/mute.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,128,'data/config/_notifications/ide_notificator/mute.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,129,'data/config/_notifications/ide_notificator/responsibility.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,130,'data/config/_notifications/ide_notificator/responsibility.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,131,'data/config/_notifications/ide_notificator/test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,132,'data/config/_notifications/ide_notificator/test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,133,'data/config/_notifications/ide_notificator/test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,134,'data/config/_notifications/ide_notificator/test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,135,'data/config/_notifications/ide_notificator/tests_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,136,'data/config/_notifications/ide_notificator/tests_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,137,'data/config/_notifications/ide_notificator/tests_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,138,'data/config/_notifications/ide_notificator/tests_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,139,'data/config/_notifications/jabber/build_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,140,'data/config/_notifications/jabber/build_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,141,'data/config/_notifications/jabber/build_failed_to_start.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,142,'data/config/_notifications/jabber/build_failed_to_start.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,143,'data/config/_notifications/jabber/build_failing.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,144,'data/config/_notifications/jabber/build_failing.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,145,'data/config/_notifications/jabber/build_probably_hanging.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,146,'data/config/_notifications/jabber/build_probably_hanging.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,147,'data/config/_notifications/jabber/build_problem_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,148,'data/config/_notifications/jabber/build_problem_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,149,'data/config/_notifications/jabber/build_problem_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,150,'data/config/_notifications/jabber/build_problem_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,151,'data/config/_notifications/jabber/build_problems_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,152,'data/config/_notifications/jabber/build_problems_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,153,'data/config/_notifications/jabber/build_problems_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,154,'data/config/_notifications/jabber/build_problems_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,155,'data/config/_notifications/jabber/build_started.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,156,'data/config/_notifications/jabber/build_started.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,157,'data/config/_notifications/jabber/build_successful.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,158,'data/config/_notifications/jabber/build_successful.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,159,'data/config/_notifications/jabber/build_type_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,160,'data/config/_notifications/jabber/build_type_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,161,'data/config/_notifications/jabber/build_type_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,162,'data/config/_notifications/jabber/build_type_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,163,'data/config/_notifications/jabber/common.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,164,'data/config/_notifications/jabber/common.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,165,'data/config/_notifications/jabber/jabber-config.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,166,'data/config/_notifications/jabber/jabber-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,167,'data/config/_notifications/jabber/labeling_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,168,'data/config/_notifications/jabber/labeling_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,169,'data/config/_notifications/jabber/multiple_test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,170,'data/config/_notifications/jabber/multiple_test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,171,'data/config/_notifications/jabber/multiple_test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,172,'data/config/_notifications/jabber/multiple_test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,173,'data/config/_notifications/jabber/mute.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,174,'data/config/_notifications/jabber/mute.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,175,'data/config/_notifications/jabber/responsibility.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,176,'data/config/_notifications/jabber/responsibility.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,177,'data/config/_notifications/jabber/test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,178,'data/config/_notifications/jabber/test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,179,'data/config/_notifications/jabber/test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,180,'data/config/_notifications/jabber/test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,181,'data/config/_notifications/jabber/tests_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,182,'data/config/_notifications/jabber/tests_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,183,'data/config/_notifications/jabber/tests_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,184,'data/config/_notifications/jabber/tests_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,185,'data/config/_notifications/win32/build_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,186,'data/config/_notifications/win32/build_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,187,'data/config/_notifications/win32/build_failed_to_start.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,188,'data/config/_notifications/win32/build_failed_to_start.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,189,'data/config/_notifications/win32/build_failing.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,190,'data/config/_notifications/win32/build_failing.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,191,'data/config/_notifications/win32/build_probably_hanging.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,192,'data/config/_notifications/win32/build_probably_hanging.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,193,'data/config/_notifications/win32/build_started.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,194,'data/config/_notifications/win32/build_started.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,195,'data/config/_notifications/win32/build_successful.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,196,'data/config/_notifications/win32/build_successful.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,197,'data/config/_notifications/win32/build_type_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,198,'data/config/_notifications/win32/build_type_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,199,'data/config/_notifications/win32/build_type_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,200,'data/config/_notifications/win32/build_type_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,201,'data/config/_notifications/win32/common.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,202,'data/config/_notifications/win32/common.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,203,'data/config/_notifications/win32/labeling_failed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,204,'data/config/_notifications/win32/labeling_failed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,205,'data/config/_notifications/win32/multiple_test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,206,'data/config/_notifications/win32/multiple_test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,207,'data/config/_notifications/win32/multiple_test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,208,'data/config/_notifications/win32/multiple_test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,209,'data/config/_notifications/win32/mute.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,210,'data/config/_notifications/win32/mute.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,211,'data/config/_notifications/win32/responsibility.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,212,'data/config/_notifications/win32/responsibility.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,213,'data/config/_notifications/win32/test_responsibility_assigned_to_me.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,214,'data/config/_notifications/win32/test_responsibility_assigned_to_me.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,215,'data/config/_notifications/win32/test_responsibility_changed.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,216,'data/config/_notifications/win32/test_responsibility_changed.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,217,'data/config/_notifications/win32/tests_muted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,218,'data/config/_notifications/win32/tests_muted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,219,'data/config/_notifications/win32/tests_unmuted.ftl',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,220,'data/config/_notifications/win32/tests_unmuted.ftl.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,221,'data/config/auth-config.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,222,'data/config/auth-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,223,'data/config/backup-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,224,'data/config/change-viewers.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,225,'data/config/database.hsqldb.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,226,'data/config/database.mssql.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,227,'data/config/database.mysql.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,228,'data/config/database.oracle.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,229,'data/config/database.postgresql.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,230,'data/config/database.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,231,'data/config/disabled-plugins.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,232,'data/config/ldap-config.properties.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,233,'data/config/ldap-mapping.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,234,'data/config/ldap-mapping.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,235,'data/config/main-config.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,236,'data/config/main-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,237,'data/config/ntlm-config.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,238,'data/config/plugin.queue-pauser.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,239,'data/config/projects/GitDevOps03/buildNumbers/GitDevOps03_TcBuild.buildNumbers.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,240,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,241,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,242,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,243,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,244,'data/config/projects/GitDevOps03/pluginData/plugin-settings.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,245,'data/config/projects/GitDevOps03/project-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,246,'data/config/projects/GitDevOps03/project-config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,247,'data/config/projects/GitDevOps03/project-config.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,248,'data/config/projects/GitDevOps03/vcsRoots/GitDevOps03_HttpsGithubComSilentUaGitDevOps03gitRefsHeadsMaster.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,249,'data/config/projects/GitDevOps03_Nichaienko/pluginData/plugin-settings.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,250,'data/config/projects/GitDevOps03_Nichaienko/project-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,251,'data/config/projects/GitDevOps03_Nichaienko/vcsRoots/GitDevOps03_Nichaienko_HttpsGithubComSilentUaGitDevOps03git.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,252,'data/config/projects/_Root/pluginData/plugin-settings.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,253,'data/config/projects/_Root/project-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,254,'data/config/projects/_Root/project-config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,255,'data/config/projects/_Root/project-config.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,256,'data/config/projects/_Root/project-config.xml.3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,257,'data/config/roles-config.dtd',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,258,'data/config/roles-config.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,259,'data/config/roles-config.xml.dist',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,260,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/logs/buildLog.msg5',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,261,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/logs/buildLog.msg5.i1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,262,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/properties/build.finish.properties.gz',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,263,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/properties/build.start.properties.gz',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,264,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/settings/buildSettings.xml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,265,'data/system/artifacts/GitDevOps03/TC-Build/1/.teamcity/settings/digest.txt',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,266,'data/system/buildserver.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,267,'data/system/buildserver.lck',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,268,'data/system/buildserver.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,269,'data/system/buildserver.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,270,'data/system/buildserver.script',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,271,'data/system/caches/buildsMetadata/metadataDB.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,272,'data/system/caches/buildsMetadata/metadataDB.lck',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,273,'data/system/caches/buildsMetadata/metadataDB.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,274,'data/system/caches/buildsMetadata/metadataDB.properties',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,275,'data/system/caches/buildsMetadata/metadataDB.script',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,276,'data/system/caches/ehcache/Subversion Externals.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,277,'data/system/caches/ehcache/Subversion Externals.index',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,278,'data/system/caches/ehcache/issue-errors.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,279,'data/system/caches/ehcache/issue-errors.index',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,280,'data/system/caches/ehcache/issues.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,281,'data/system/caches/ehcache/issues.index',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,282,'data/system/caches/ehcache/pullRequests.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,283,'data/system/caches/ehcache/pullRequests.index',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,284,'data/system/caches/git/git-A4D3E6C2.git/HEAD',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,285,'data/system/caches/git/git-A4D3E6C2.git/config',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,286,'data/system/caches/git/git-A4D3E6C2.git/timestamp',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,287,'data/system/caches/git/map',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,288,'data/system/caches/mercurial/map',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,289,'data/system/caches/projectConfigs/GitDevOps03.zip',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,290,'data/system/caches/projectConfigs/GitDevOps03_Nichaienko.zip',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,291,'data/system/caches/projectConfigs/_Root.zip',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,292,'data/system/caches/search/_0.fdt',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,293,'data/system/caches/search/_0.fdx',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,294,'data/system/caches/search/_0.fnm',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,295,'data/system/caches/search/_0.frq',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,296,'data/system/caches/search/_0.nrm',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,297,'data/system/caches/search/_0.prx',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,298,'data/system/caches/search/_0.tii',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,299,'data/system/caches/search/_0.tis',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,300,'data/system/caches/search/_0_1.del',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,301,'data/system/caches/search/_1.fdt',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,302,'data/system/caches/search/_1.fdx',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,303,'data/system/caches/search/_1.fnm',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,304,'data/system/caches/search/_1.frq',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,305,'data/system/caches/search/_1.nrm',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,306,'data/system/caches/search/_1.prx',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,307,'data/system/caches/search/_1.tii',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,308,'data/system/caches/search/_1.tis',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,309,'data/system/caches/search/segments.gen',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,310,'data/system/caches/search/segments_3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,311,'data/system/caches/search/version.24',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,312,'data/system/caches/search/write.lock',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,313,'data/system/caches/svn/map',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,314,'data/system/caches/vcsContentCache/contentCache.data',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,315,'data/system/caches/vcsContentCache/contentCache.index',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,316,'data/system/dataDirectoryInitialized',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,317,'data/system/pluginData/audit/configHistory/buildTypes/bt1/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,318,'data/system/pluginData/audit/configHistory/buildTypes/bt1/config.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,319,'data/system/pluginData/audit/configHistory/buildTypes/bt1/config.xml.3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,320,'data/system/pluginData/audit/configHistory/buildTypes/bt1/config.xml.4',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,321,'data/system/pluginData/audit/configHistory/pluginSettings/_Root/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,322,'data/system/pluginData/audit/configHistory/pluginSettings/project1/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,323,'data/system/pluginData/audit/configHistory/pluginSettings/project2/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,324,'data/system/pluginData/audit/configHistory/projects/_Root/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,325,'data/system/pluginData/audit/configHistory/projects/_Root/config.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,326,'data/system/pluginData/audit/configHistory/projects/_Root/config.xml.3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,327,'data/system/pluginData/audit/configHistory/projects/_Root/config.xml.4',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,328,'data/system/pluginData/audit/configHistory/projects/project1/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,329,'data/system/pluginData/audit/configHistory/projects/project1/config.xml.2',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,330,'data/system/pluginData/audit/configHistory/projects/project1/config.xml.3',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,331,'data/system/pluginData/audit/configHistory/projects/project2/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,332,'data/system/pluginData/audit/configHistory/vcsRoots/1/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,333,'data/system/pluginData/audit/configHistory/vcsRoots/2/config.xml.1',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,334,'data/system/pluginData/versionedSettings/version',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,335,'docker-compose.yml',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,336,'dockerfile',NULL,0,NULL,NULL,2,'removed','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,337,'logs/catalina.2019-08-16.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,338,'logs/host-manager.2019-08-16.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,339,'logs/localhost.2019-08-16.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,340,'logs/manager.2019-08-16.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,341,'logs/teamcity-activities.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,342,'logs/teamcity-auth.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,343,'logs/teamcity-cleanup.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,344,'logs/teamcity-javaLogging-2019-08-16.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,345,'logs/teamcity-mavenServer.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,346,'logs/teamcity-notifications.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,347,'logs/teamcity-rest.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,348,'logs/teamcity-server.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,349,'logs/teamcity-vcs.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,350,'logs/teamcity-wrapper.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,351,'logs/teamcity-ws.log',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,352,'logs/teamcity.lock',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGE VALUES(1,353,'logs/teamcity.pid',NULL,0,NULL,NULL,1,'added','a9e360eaf300a6fec6fbd99a806580c36ce286fc','8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO VCS_CHANGES_GRAPH VALUES(1,'8c6dc2d3cd372641785cad28ecae2813419ad610',0,NULL,'a9e360eaf300a6fec6fbd99a806580c36ce286fc')
+INSERT INTO BUILD_TYPE_GROUP_VCS_CHANGE VALUES(1,1,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(165,'changePersisted',1,NULL,NULL,'MAIN_SERVER','2019-08-16 14:28:45.821000')
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='lastCheckingForChangesTime=1565965579645\u000a' AND UPDATE_DATE=1565965633309
+INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965649752\u000a',1565965725821)
+COMMIT
+INSERT INTO VCS_HISTORY VALUES(2,'spaceantoxa','\u0009new file:   .gitignore\u000a\u0009deleted:    Incoices\u000a\u0009deleted:    data/system/caches/search/segments_3\u000a\u0009deleted:    documentation\u000a',1565965332000,1565965725826,1,17,'f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,1,'.gitignore',NULL,0,NULL,NULL,1,'added','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,2,'data/config/projects/GitDevOps03/buildNumbers/GitDevOps03_TcBuild.buildNumbers.properties',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,3,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,4,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.1',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,5,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.2',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,6,'data/config/projects/GitDevOps03/buildTypes/GitDevOps03_TcBuild.xml.3',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,7,'data/system/buildserver.data',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,8,'data/system/buildserver.lck',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,9,'data/system/buildserver.log',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,10,'data/system/caches/buildsMetadata/metadataDB.lck',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,11,'data/system/caches/git/git-A4D3E6C2.git/timestamp',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,12,'data/system/caches/projectConfigs/GitDevOps03.zip',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,13,'data/system/caches/search/segments.gen',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,14,'data/system/caches/search/segments_3',NULL,0,NULL,NULL,2,'removed','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,15,'logs/teamcity-activities.log',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,16,'logs/teamcity-server.log',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGE VALUES(2,17,'logs/teamcity-vcs.log',NULL,0,NULL,NULL,0,'edited','8c6dc2d3cd372641785cad28ecae2813419ad610','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO VCS_CHANGES_GRAPH VALUES(2,'f76b1fa86f0d35cbbba705061986e66e8f0cf7e7',0,1,'8c6dc2d3cd372641785cad28ecae2813419ad610')
+INSERT INTO BUILD_TYPE_GROUP_VCS_CHANGE VALUES(2,1,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(166,'changePersisted',2,NULL,NULL,'MAIN_SERVER','2019-08-16 14:28:45.830000')
+COMMIT
+INSERT INTO VCS_HISTORY VALUES(3,'spaceantoxa','\u0009modified:   .gitignore\u000a',1565965433000,1565965725831,1,6,'5ec415536deec30040a371707c4f711ea320d3e5','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,1,'.gitignore',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,2,'data/system/buildserver.lck',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,3,'data/system/buildserver.log',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,4,'data/system/caches/buildsMetadata/metadataDB.lck',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,5,'data/system/caches/git/git-A4D3E6C2.git/timestamp',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGE VALUES(3,6,'logs/teamcity-vcs.log',NULL,0,NULL,NULL,0,'edited','f76b1fa86f0d35cbbba705061986e66e8f0cf7e7','5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO VCS_CHANGES_GRAPH VALUES(3,'5ec415536deec30040a371707c4f711ea320d3e5',0,2,'f76b1fa86f0d35cbbba705061986e66e8f0cf7e7')
+INSERT INTO BUILD_TYPE_GROUP_VCS_CHANGE VALUES(3,1,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(167,'changePersisted',3,NULL,NULL,'MAIN_SERVER','2019-08-16 14:28:45.832000')
+COMMIT
+INSERT INTO VCS_HISTORY VALUES(4,'spaceantoxa','\u0009deleted:    exercises\u000a',1565965666000,1565965725833,1,11,'f7f77832f607358689c748e9f68ddc3053d3ac20','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,1,'.gitignore',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,2,'data/config/projects/GitDevOps03/buildNumbers/GitDevOps03_TcBuild.buildNumbers.properties',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,3,'data/system/buildserver.data',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,4,'data/system/buildserver.lck',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,5,'data/system/buildserver.log',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,6,'data/system/caches/buildsMetadata/metadataDB.lck',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,7,'data/system/caches/git/git-A4D3E6C2.git/timestamp',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,8,'data/system/caches/search/segments.gen',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,9,'logs/teamcity-activities.log',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,10,'logs/teamcity-server.log',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGE VALUES(4,11,'logs/teamcity-vcs.log',NULL,0,NULL,NULL,0,'edited','5ec415536deec30040a371707c4f711ea320d3e5','f7f77832f607358689c748e9f68ddc3053d3ac20')
+INSERT INTO VCS_CHANGES_GRAPH VALUES(4,'f7f77832f607358689c748e9f68ddc3053d3ac20',0,3,'5ec415536deec30040a371707c4f711ea320d3e5')
+INSERT INTO BUILD_TYPE_GROUP_VCS_CHANGE VALUES(4,1,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(168,'changePersisted',4,NULL,NULL,'MAIN_SERVER','2019-08-16 14:28:45.836000')
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=3 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='##teamcity##:createTime=1565963856865\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=a9e360eaf300a6fec6fbd99a806580c36ce286fc\u000a' AND UPDATE_DATE=1565963953290
+INSERT INTO CUSTOM_DATA_BODY VALUES(3,0,1,'##teamcity##:createTime=1565965719809\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a',1565965725837)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(169,'repositoryStateChanged',1,NULL,NULL,'MAIN_SERVER','2019-08-16 14:28:45.840000')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(170,'buildTypesBranchesMayHaveChanged',NULL,NULL,'bt1,','MAIN_SERVER','2019-08-16 14:28:45.841000')
+COMMIT
+INSERT INTO BUILD_STATE VALUES(6,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965740435,NULL)
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.build.buildTypeArtifactsPath','GitDevOps03/TC-Build',NULL)
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.build.desiredBranchName','',NULL)
+INSERT INTO BUILD_PROJECT VALUES(6,0,'_Root')
+INSERT INTO BUILD_PROJECT VALUES(6,1,'project1')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=6
+INSERT INTO BUILD_STATE VALUES(6,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965740435,NULL)
+COMMIT
+INSERT INTO BUILD_QUEUE VALUES('bt1',NULL,NULL,'##vcsName=''jetbrains.git'' type=''vcs''',0,6)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(171,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:00.437000')
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.build.hasFrozenSettings','current',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(172,'buildPromotionPersisted',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:00.446000')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=6
+INSERT INTO BUILD_STATE VALUES(6,6,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965740435,NULL)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.build.settingsDigest','a2fa419ce710c7399b1d221af38a60d3d18be309',NULL)
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=6
+INSERT INTO BUILD_STATE VALUES(6,6,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965740435,1565965740448)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(173,'buildPromotionPersisted',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:00.450000')
+COMMIT
+INSERT INTO RUNNING VALUES(6,1,'bt1',NULL,1565965740448,NULL,1565965740448,0,'%build.counter%',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'','')
+COMMIT
+INSERT INTO NODE_TASKS VALUES(13,'buildChainChangesCollecting','6',6,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:29:00.455000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=13
+INSERT INTO NODE_TASKS VALUES(13,'buildChainChangesCollecting','6',6,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:29:00.455000',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(174,'buildStarted',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:00.456000')
+COMMIT
+DELETE FROM BUILD_QUEUE WHERE BUILD_TYPE_ID='bt1' AND AGENT_RESTRICTOR_TYPE_ID IS NULL AND AGENT_RESTRICTOR_ID IS NULL AND REQUESTOR='##vcsName=''jetbrains.git'' type=''vcs''' AND POS=0 AND BUILD_STATE_ID=6
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(175,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:00.460000')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,-1545243396608322937,20.000000)
+COMMIT
+INSERT INTO BUILD_REVISIONS VALUES(6,1,'f7f77832f607358689c748e9f68ddc3053d3ac20','f7f77832f607358689c748e9f68ddc3053d3ac20','refs/heads/master',4,NULL,NULL)
+INSERT INTO BUILD_CHECKOUT_RULES VALUES(6,'bt1',1,'')
+DELETE FROM BUILD_STATE WHERE ID=6
+INSERT INTO BUILD_STATE VALUES(6,6,'bt1',4,4,NULL,NULL,'0','0','0','0',NULL,1565965740435,1565965740448)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.checkout.properties.hash','b42615c994543d3c',NULL)
+INSERT INTO BUILD_ATTRS VALUES(6,'teamcity.build.finalBranchName','',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(176,'buildPromotionPersisted',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:01.308000')
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=13
+INSERT INTO NODE_TASKS VALUES(13,'buildChainChangesCollecting','6',6,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',55528905,'2019-08-16 14:29:00.455000','2019-08-16 14:29:01.317000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',NULL,1565965740448,NULL,1565965740448,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'','')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(177,'changesLoaded',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:01.321000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965740448,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'','')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,6462680959755247356,1.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965741678,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(178,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:05.437000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965743449,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746078,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746123,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(179,'buildArtifactsChanged',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:06.173000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746180,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746227,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965745247,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'remote: Counting objects:  78% (256/327)        ','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965745337,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'remote: Compressing objects:  76% (118/154)        ','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965745473,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Receiving objects:  74% (241/325)   ','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,1662119473372385625,2422.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,4967928924983341179,10.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,6808147447982308545,0.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965745967,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Step 1/2','Step 1/2: Starting: docker build -t f7f77832f607358689c748e9f68ddc3053d3ac20: --pull -f Dockerfile_nginx .')
+COMMIT
+INSERT INTO BUILD_PROBLEM VALUES(6,1,'Process exited with code 125 (Step: build docker image (Docker))')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(6,1,'buildLogAnchor','421')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(6,1,'additionalData','teamcity.process.flow.id=149602930556156')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746065,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Step 1/2','Step 1/2: Process exited with code 125 (Step: build docker image (Docker))')
+COMMIT
+DELETE FROM BUILD_DATA_STORAGE WHERE BUILD_ID=6 AND METRIC_ID=6808147447982308545
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,6808147447982308545,704.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746584,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,-3811876622637497843,356.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746938,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747688,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747731,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(180,'buildArtifactsChanged',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:07.780000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747779,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747823,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965746939,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747911,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965747959,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,340349775839283755,1068.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,NULL,1565965748003,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+INSERT INTO RUNNING VALUES(6,1,'bt1',1565965741412,1565965741415,1565965748003,1565965748003,0,'6',6,'##vcsName=''jetbrains.git'' type=''vcs''','PApuoSdT3uwoHk3lstm2kRZWzaGRxCNs',NULL,NULL,6,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,9087962820595322767,45.000000)
+COMMIT
+INSERT INTO NODE_TASKS VALUES(14,'finishBuild','finishBuild:6',6,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:29:08.048000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=14
+INSERT INTO NODE_TASKS VALUES(14,'finishBuild','finishBuild:6',6,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:29:08.048000',NULL)
+COMMIT
+INSERT INTO STATS VALUES(6,0)
+COMMIT
+INSERT INTO HISTORY VALUES(6,'agent_first','bt1',1565965741415,1565965741412,1565965748003,3,'Exit code 125 (Step: build docker image (Docker))',NULL,0,0,0,'6','##vcsName=''jetbrains.git'' type=''vcs''',6,1)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=6
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(181,'buildFinished',6,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:08.101000')
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=14
+INSERT INTO NODE_TASKS VALUES(14,'finishBuild','finishBuild:6',6,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',65263550,'2019-08-16 14:29:08.048000','2019-08-16 14:29:08.102000')
+COMMIT
+DELETE FROM AGENT_TYPE_INFO WHERE AGENT_TYPE_ID=1
+INSERT INTO AGENT_TYPE_INFO VALUES(1,'Linux, version 4.15.0-58-generic',188,'2019-08-16 14:29:08.565000','2019-08-16 14:29:08.565000')
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.AGENT_NAME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.ASPNETCORE_URLS'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.CONFIG_FILE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_CLI_TELEMETRY_OPTOUT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_RUNNING_IN_CONTAINER'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_SDK_VERSION'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_SKIP_FIRST_TIME_EXPERIENCE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_USE_POLLING_FILE_WATCHER'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.GIT_SSH_VARIANT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.HOSTNAME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_TOOL_OPTIONS'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_VERSION'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_18'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_18_x64'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JRE_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.LANG'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.NUGET_XMLDOC_MODE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.OLDPWD'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.PATH'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.PWD'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.SERVER_URL'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.SHLVL'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.TEAMCITY_CAPTURE_ENV'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.TEAMCITY_GIT_PATH'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env._'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.home.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.work.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.teamcity.agent.cpuBenchmark'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.teamcity.build.tempDir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCLI'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCLI_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCoreSDK2.2.103_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCoreSDK2.2_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.server.osType'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.server.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='dockerCompose.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hardware.cpuCount'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hardware.memorySizeMb'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.home.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hostname'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.file.encoding'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.file.separator'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.java.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.arch'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.path.separator'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.specification'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.language'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.timezone'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.launcher.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.os.arch.bits'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.ownPort'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.protocol'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.tools.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.work.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.work.dir.freeSpaceMb'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.dotCover.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.hg.agent.path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.hg.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.serverUrl'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.1.0.7'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.BUNDLED'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.DEFAULT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.ant-net-tasks'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.dotCover'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.gant'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.idea-runner-runtime-libs'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.jps'
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.PWD','/opt/buildagent/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.LANG','C.UTF-8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.NUGET_XMLDOC_MODE','skip')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_18','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.HOME','/root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.PATH','/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.TEAMCITY_CAPTURE_ENV','"/opt/java/openjdk/jre/bin/java" -jar "/opt/buildagent/plugins/environment-fetcher/bin/env-fetcher.jar"')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.work.dir','/opt/buildagent/work')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.CONFIG_FILE','/data/teamcity_agent/conf/buildAgent.properties')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.ASPNETCORE_URLS','http://+:80')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.GIT_SSH_VARIANT','ssh')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_18_x64','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.SERVER_URL','http://server:8111')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.HOSTNAME','1153a6e717a7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_VERSION','jdk8u192-b12')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env._','/opt/buildagent/bin/agent.sh')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.SHLVL','1')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_SDK_VERSION','2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.teamcity.build.tempDir','/opt/buildagent/temp/buildTmp')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_CLI_TELEMETRY_OPTOUT','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_SKIP_FIRST_TIME_EXPERIENCE','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.teamcity.agent.cpuBenchmark','188')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_RUNNING_IN_CONTAINER','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.home.dir','/opt/buildagent')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JRE_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.TEAMCITY_GIT_PATH','/usr/bin/git')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.AGENT_NAME','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_USE_POLLING_FILE_WATCHER','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_TOOL_OPTIONS','-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.OLDPWD','/opt/buildagent/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.name','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.os.arch.bits','64')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.work.dir','/opt/buildagent/work')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.1.0.7','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCLI_Path','/usr/share/dotnet/dotnet')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.work.dir.freeSpaceMb','17936')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.gant','/opt/buildagent/tools/gant')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.file.encoding','UTF-8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.hg.version','4.5.3')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCLI','2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.file.separator','/')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.DEFAULT','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.name','root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.version','18.06.1')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.serverUrl','http://server:8111')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','dockerCompose.version','1.23.2')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCoreSDK2.2.103_Path','/usr/share/dotnet/sdk/2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.dotCover.home','%teamcity.tool.JetBrains.dotCover.CommandLineTools.bundled%')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.name','Linux')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hostname','1153a6e717a7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.timezone','GMT')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.dotCover','%teamcity.tool.JetBrains.dotCover.CommandLineTools.bundled%')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.server.version','18.09.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.specification','1.8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.ownPort','9090')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.home.dir','/opt/buildagent')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.arch','amd64')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.protocol','polling')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.BUNDLED','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.version','4.15.0-58-generic')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.launcher.version','66342')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.tools.dir','/opt/buildagent/tools')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.version','1.8.0_192')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.jps','/opt/buildagent/tools/jps')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCoreSDK2.2_Path','/usr/share/dotnet/sdk/2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.language','en')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.idea-runner-runtime-libs','/opt/buildagent/plugins/idea-runner-runtime-libs')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.java.home','/opt/java/openjdk/jre')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.name','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hardware.memorySizeMb','5701')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.server.osType','linux')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.path.separator',':')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.ant-net-tasks','/opt/buildagent/tools/ant-net-tasks')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hardware.cpuCount','2')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.home','/root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.hg.agent.path','hg')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(182,'agentDescriptionUpdated',1,1,NULL,'MAIN_SERVER','2019-08-16 14:29:08.575000')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,3014510524022395756,57509.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,-4924562750898875443,3.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,-3896958621569208557,0.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(6,-6371738409877395985,13.000000)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=2 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='lastTriggeredBy-<default>=-1\u000ateamcityPrevCallTimestamp=1565954693152\u000ateamcityTriggerStatePropsHash=sha1:ac636728e4810782e4fd210eeb8eca147ed7b5bf\u000a' AND UPDATE_DATE=1565954713081
+INSERT INTO CUSTOM_DATA_BODY VALUES(2,0,1,'lastTriggeredBy-<default>=4\u000ateamcityPrevCallTimestamp=1565954693152\u000ateamcityTriggerStatePropsHash=sha1:ac636728e4810782e4fd210eeb8eca147ed7b5bf\u000a',1565965753310)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=1 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='diskusagedata={"ver":6,"log":45239,"art":0,"artI":17797,"non":0,"builds":[[1,33487],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":5,"cleanBuilds":5,"cleanSize":0,"date":-1}\u000a' AND UPDATE_DATE=1565965633308
+INSERT INTO CUSTOM_DATA_BODY VALUES(1,0,1,'diskusagedata={"ver":7,"log":95260,"art":0,"artI":25218,"non":0,"builds":[[6,57442],[1,33487],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":6,"cleanBuilds":6,"cleanSize":0,"date":-1}\u000a',1565965753310)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965649752\u000a' AND UPDATE_DATE=1565965725821
+INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965741281\u000a',1565965753311)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=3 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='##teamcity##:createTime=1565965719809\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a' AND UPDATE_DATE=1565965725837
+INSERT INTO CUSTOM_DATA_BODY VALUES(3,0,1,'##teamcity##:createTime=1565965741278\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a',1565965753311)
+COMMIT
+INSERT INTO BUILD_STATE VALUES(7,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965753606,NULL)
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.addToFavorites','false',NULL)
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.build.buildTypeArtifactsPath','GitDevOps03/TC-Build',NULL)
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.build.desiredBranchName','',NULL)
+INSERT INTO BUILD_PROJECT VALUES(7,0,'_Root')
+INSERT INTO BUILD_PROJECT VALUES(7,1,'project1')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=7
+INSERT INTO BUILD_STATE VALUES(7,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965753606,NULL)
+COMMIT
+INSERT INTO BUILD_QUEUE VALUES('bt1',NULL,NULL,'##userId=''1'' type=''user''',0,7)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(183,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:13.609000')
+COMMIT
+INSERT INTO COMMENTS VALUES(23,1,1565965753609,'')
+COMMIT
+INSERT INTO ACTION_HISTORY VALUES('7',23,38,'bt1')
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.build.hasFrozenSettings','current',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(184,'buildPromotionPersisted',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:13.620000')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=7
+INSERT INTO BUILD_STATE VALUES(7,7,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965753606,NULL)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.build.settingsDigest','a2fa419ce710c7399b1d221af38a60d3d18be309',NULL)
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=7
+INSERT INTO BUILD_STATE VALUES(7,7,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965753606,1565965753623)
+COMMIT
+INSERT INTO RUNNING VALUES(7,1,'bt1',NULL,1565965753623,NULL,1565965753623,0,'%build.counter%',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'','')
+COMMIT
+/*C5*/INSERT INTO NODE_EVENTS VALUES(185,'buildPromotionPersisted',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:13.625000')
+COMMIT
+DELETE FROM BUILD_QUEUE WHERE BUILD_TYPE_ID='bt1' AND AGENT_RESTRICTOR_TYPE_ID IS NULL AND AGENT_RESTRICTOR_ID IS NULL AND REQUESTOR='##userId=''1'' type=''user''' AND POS=0 AND BUILD_STATE_ID=7
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,-1545243396608322937,16.000000)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(186,'buildStarted',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:13.628000')
+INSERT INTO NODE_EVENTS VALUES(187,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:13.628000')
+COMMIT
+INSERT INTO NODE_TASKS VALUES(15,'buildChainChangesCollecting','7',7,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:29:13.629000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=15
+INSERT INTO NODE_TASKS VALUES(15,'buildChainChangesCollecting','7',7,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:29:13.629000',NULL)
+COMMIT
+INSERT INTO BUILD_REVISIONS VALUES(7,1,'f7f77832f607358689c748e9f68ddc3053d3ac20','f7f77832f607358689c748e9f68ddc3053d3ac20','refs/heads/master',4,NULL,NULL)
+INSERT INTO BUILD_CHECKOUT_RULES VALUES(7,'bt1',1,'')
+DELETE FROM BUILD_STATE WHERE ID=7
+INSERT INTO BUILD_STATE VALUES(7,7,'bt1',4,4,NULL,NULL,'0','0','0','0',NULL,1565965753606,1565965753623)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.checkout.properties.hash','b42615c994543d3c',NULL)
+INSERT INTO BUILD_ATTRS VALUES(7,'teamcity.build.finalBranchName','',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(188,'buildPromotionPersisted',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:14.307000')
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=15
+INSERT INTO NODE_TASKS VALUES(15,'buildChainChangesCollecting','7',7,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',53214398,'2019-08-16 14:29:13.629000','2019-08-16 14:29:14.307000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',NULL,1565965753623,NULL,1565965753623,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'','')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(189,'changesLoaded',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:14.314000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965753623,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'','')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,6462680959755247356,1.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965756326,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757429,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757475,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(190,'buildArtifactsChanged',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:17.508000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757524,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757567,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,1662119473372385625,898.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,4967928924983341179,5.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,6808147447982308545,0.000000)
+COMMIT
+INSERT INTO BUILD_PROBLEM VALUES(7,1,'Process exited with code 125 (Step: build docker image (Docker))')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(7,1,'buildLogAnchor','69')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(7,1,'additionalData','teamcity.process.flow.id=149614250648264')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757408,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Step 1/2','Step 1/2: Process exited with code 125 (Step: build docker image (Docker))')
+COMMIT
+DELETE FROM BUILD_DATA_STORAGE WHERE BUILD_ID=7 AND METRIC_ID=6808147447982308545
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,6808147447982308545,436.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757666,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,-3811876622637497843,231.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757896,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758026,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758071,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(191,'buildArtifactsChanged',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:18.106000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758121,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758167,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965757897,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758255,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758299,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,340349775839283755,449.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,NULL,1565965758343,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+INSERT INTO RUNNING VALUES(7,1,'bt1',1565965754340,1565965754355,1565965758343,1565965758343,0,'7',7,'##userId=''1'' type=''user''','B0OpsFv8CGYesEQurLoiuOlmwdfunoxI',NULL,NULL,7,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,9087962820595322767,32.000000)
+COMMIT
+INSERT INTO NODE_TASKS VALUES(16,'finishBuild','finishBuild:7',7,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:29:18.376000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=16
+INSERT INTO NODE_TASKS VALUES(16,'finishBuild','finishBuild:7',7,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:29:18.376000',NULL)
+COMMIT
+/*C7*/INSERT INTO STATS VALUES(7,0)
+COMMIT
+INSERT INTO HISTORY VALUES(7,'agent_first','bt1',1565965754355,1565965754340,1565965758343,3,'Exit code 125 (Step: build docker image (Docker))',NULL,0,0,0,'7','##userId=''1'' type=''user''',7,1)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=7
+COMMIT
+/*C5*/DELETE FROM NODE_TASKS WHERE ID=16
+INSERT INTO NODE_TASKS VALUES(16,'finishBuild','finishBuild:7',7,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',65817212,'2019-08-16 14:29:18.376000','2019-08-16 14:29:18.392000')
+COMMIT
+/*C8*/INSERT INTO NODE_EVENTS VALUES(192,'buildFinished',7,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:18.392000')
+COMMIT
+/*C7*/INSERT INTO NODE_EVENTS VALUES(193,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:29:18.609000')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,3014510524022395756,17210.000000)
+COMMIT
+/*C5*/INSERT INTO BUILD_DATA_STORAGE VALUES(7,-4924562750898875443,3.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,-3896958621569208557,0.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(7,-6371738409877395985,17.000000)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=1 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='diskusagedata={"ver":7,"log":95260,"art":0,"artI":25218,"non":0,"builds":[[6,57442],[1,33487],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":6,"cleanBuilds":6,"cleanSize":0,"date":-1}\u000a' AND UPDATE_DATE=1565965753310
+INSERT INTO CUSTOM_DATA_BODY VALUES(1,0,1,'diskusagedata={"ver":8,"log":104966,"art":0,"artI":32655,"non":0,"builds":[[6,57442],[1,33487],[7,17143],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":7,"cleanBuilds":7,"cleanSize":0,"date":-1}\u000a',1565965873312)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965741281\u000a' AND UPDATE_DATE=1565965753311
+INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965820045\u000a',1565965873313)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=3 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='##teamcity##:createTime=1565965741278\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a' AND UPDATE_DATE=1565965753311
+INSERT INTO CUSTOM_DATA_BODY VALUES(3,0,1,'##teamcity##:createTime=1565965820043\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a',1565965873314)
+COMMIT
+INSERT INTO COMMENTS VALUES(24,1,1565965879420,'runners of ''TC-Build'' build configuration were updated')
+COMMIT
+INSERT INTO AUDIT_ADDITIONAL_OBJECT VALUES(24,0,'buildType:bt1|5|6','version before: 5, version after: 6')
+COMMIT
+INSERT INTO ACTION_HISTORY VALUES('bt1',24,88,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(194,'projectConfigChanged',NULL,NULL,'GitDevOps03','MAIN_SERVER','2019-08-16 14:31:29.432000')
+COMMIT
+DELETE FROM AGENT WHERE ID=1
+INSERT INTO AGENT VALUES(1,'agent_first','172.18.0.3',9090,1,1,1,1,1565954251841,1565965895412,NULL,'e201e98f76e04f9eefcaebafea2ce1d3',NULL,NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(195,'agentCommunicationTimeUpdated',1,1565965895412,NULL,'MAIN_SERVER','2019-08-16 14:31:35.412000')
+COMMIT
+INSERT INTO BUILD_STATE VALUES(8,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965897937,NULL)
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.addToFavorites','false',NULL)
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.build.buildTypeArtifactsPath','GitDevOps03/TC-Build',NULL)
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.build.desiredBranchName','',NULL)
+INSERT INTO BUILD_PROJECT VALUES(8,0,'_Root')
+INSERT INTO BUILD_PROJECT VALUES(8,1,'project1')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=8
+INSERT INTO BUILD_STATE VALUES(8,NULL,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965897937,NULL)
+COMMIT
+INSERT INTO BUILD_QUEUE VALUES('bt1',NULL,NULL,'##userId=''1'' type=''user''',0,8)
+COMMIT
+/*C7*/INSERT INTO COMMENTS VALUES(25,1,1565965897940,'')
+COMMIT
+/*C5*/INSERT INTO NODE_EVENTS VALUES(196,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:37.941000')
+COMMIT
+/*C7*/INSERT INTO ACTION_HISTORY VALUES('8',25,38,'bt1')
+COMMIT
+/*C5*/INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.build.hasFrozenSettings','current',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(197,'buildPromotionPersisted',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:37.954000')
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=8
+INSERT INTO BUILD_STATE VALUES(8,8,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965897937,NULL)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.build.settingsDigest','569e7d435fae5f586d50d7d6cc7a5a58d1e58255',NULL)
+COMMIT
+DELETE FROM BUILD_STATE WHERE ID=8
+INSERT INTO BUILD_STATE VALUES(8,8,'bt1',NULL,NULL,NULL,NULL,'0','0','0','0',NULL,1565965897937,1565965897956)
+COMMIT
+INSERT INTO RUNNING VALUES(8,1,'bt1',NULL,1565965897956,NULL,1565965897956,0,'%build.counter%',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'','')
+COMMIT
+/*C7*/INSERT INTO NODE_EVENTS VALUES(198,'buildPromotionPersisted',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:37.958000')
+COMMIT
+DELETE FROM BUILD_QUEUE WHERE BUILD_TYPE_ID='bt1' AND AGENT_RESTRICTOR_TYPE_ID IS NULL AND AGENT_RESTRICTOR_ID IS NULL AND REQUESTOR='##userId=''1'' type=''user''' AND POS=0 AND BUILD_STATE_ID=8
+COMMIT
+/*C5*/INSERT INTO NODE_EVENTS VALUES(199,'buildStarted',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:37.961000')
+COMMIT
+/*C7*/INSERT INTO BUILD_DATA_STORAGE VALUES(8,-1545243396608322937,18.000000)
+COMMIT
+/*C5*/INSERT INTO NODE_EVENTS VALUES(200,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:37.961000')
+COMMIT
+INSERT INTO NODE_TASKS VALUES(17,'buildChainChangesCollecting','8',8,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:31:37.962000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=17
+INSERT INTO NODE_TASKS VALUES(17,'buildChainChangesCollecting','8',8,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:31:37.962000',NULL)
+COMMIT
+INSERT INTO BUILD_REVISIONS VALUES(8,1,'f7f77832f607358689c748e9f68ddc3053d3ac20','f7f77832f607358689c748e9f68ddc3053d3ac20','refs/heads/master',4,NULL,NULL)
+INSERT INTO BUILD_CHECKOUT_RULES VALUES(8,'bt1',1,'')
+DELETE FROM BUILD_STATE WHERE ID=8
+INSERT INTO BUILD_STATE VALUES(8,8,'bt1',4,4,NULL,NULL,'0','0','0','0',NULL,1565965897937,1565965897956)
+COMMIT
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.checkout.properties.hash','b42615c994543d3c',NULL)
+INSERT INTO BUILD_ATTRS VALUES(8,'teamcity.build.finalBranchName','',NULL)
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(201,'buildPromotionPersisted',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:38.669000')
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=17
+INSERT INTO NODE_TASKS VALUES(17,'buildChainChangesCollecting','8',8,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',58095910,'2019-08-16 14:31:37.962000','2019-08-16 14:31:38.679000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',NULL,1565965897956,NULL,1565965897956,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'','')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(202,'changesLoaded',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:38.684000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965897956,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'','')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(203,'queueChanged',NULL,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:42.941000')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,6462680959755247356,1.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965902441,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965903355,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965903403,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(204,'buildArtifactsChanged',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:43.450000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965903453,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965903499,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,1662119473372385625,865.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,4967928924983341179,4.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965903304,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Step 1/2','Step 1/2')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,6808147447982308545,0.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965907702,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Step 1/2','Step 1/2: e1288088c7a8: Download complete')
+COMMIT
+INSERT INTO PROBLEM VALUES(4,'TC_EXIT_CODE','DockerCommandRUNNER_1_1')
+INSERT INTO BUILD_PROBLEM VALUES(8,4,'Process exited with code 1 (Step: build docker image (Docker))')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(8,4,'buildLogAnchor','88')
+INSERT INTO BUILD_PROBLEM_ATTRIBUTE VALUES(8,4,'additionalData','teamcity.process.flow.id=149760366820072')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965912460,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Step 1/2','Step 1/2: Process exited with code 1 (Step: build docker image (Docker))')
+COMMIT
+DELETE FROM BUILD_DATA_STORAGE WHERE BUILD_ID=8 AND METRIC_ID=6808147447982308545
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,6808147447982308545,9164.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965912469,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Step 2/2: Build step Push docker image to docker hub (Docker) is skipped because the previous step has failed')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,-3811876622637497843,259.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965912729,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913606,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [ArtifactsCachePublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913651,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(205,'buildArtifactsChanged',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:53.696000')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913699,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913743,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts: Publishing 1 file using [WebPublisher]')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965912729,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,'Publishing internal artifacts','Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913831,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913875,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913178,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,340349775839283755,1237.000000)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,NULL,1565965913963,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+INSERT INTO RUNNING VALUES(8,1,'bt1',1565965900425,1565965900428,1565965913963,1565965913963,0,'8',8,'##userId=''1'' type=''user''','589oqv1gpDIFmF1UegScIcIX8clGjgla',NULL,NULL,8,1,NULL,NULL,'Publishing internal artifacts')
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,9087962820595322767,44.000000)
+COMMIT
+INSERT INTO NODE_TASKS VALUES(18,'finishBuild','finishBuild:8',8,NULL,NULL,'MAIN_SERVER',NULL,0,'2019-08-16 14:31:54.008000',NULL)
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=18
+INSERT INTO NODE_TASKS VALUES(18,'finishBuild','finishBuild:8',8,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',1,'2019-08-16 14:31:54.008000',NULL)
+COMMIT
+/*C7*/INSERT INTO STATS VALUES(8,0)
+COMMIT
+INSERT INTO HISTORY VALUES(8,'agent_first','bt1',1565965900428,1565965900425,1565965913963,3,'Exit code 1 (Step: build docker image (Docker)) (new)',NULL,0,0,0,'8','##userId=''1'' type=''user''',8,1)
+COMMIT
+DELETE FROM RUNNING WHERE BUILD_ID=8
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(206,'buildFinished',8,NULL,NULL,'MAIN_SERVER','2019-08-16 14:31:54.029000')
+COMMIT
+DELETE FROM NODE_TASKS WHERE ID=18
+INSERT INTO NODE_TASKS VALUES(18,'finishBuild','finishBuild:8',8,NULL,NULL,'MAIN_SERVER','MAIN_SERVER',64791606,'2019-08-16 14:31:54.008000','2019-08-16 14:31:54.030000')
+COMMIT
+DELETE FROM AGENT_TYPE_INFO WHERE AGENT_TYPE_ID=1
+INSERT INTO AGENT_TYPE_INFO VALUES(1,'Linux, version 4.15.0-58-generic',188,'2019-08-16 14:31:54.468000','2019-08-16 14:31:54.468000')
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.AGENT_NAME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.ASPNETCORE_URLS'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.CONFIG_FILE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_CLI_TELEMETRY_OPTOUT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_RUNNING_IN_CONTAINER'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_SDK_VERSION'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_SKIP_FIRST_TIME_EXPERIENCE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.DOTNET_USE_POLLING_FILE_WATCHER'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.GIT_SSH_VARIANT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.HOSTNAME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_TOOL_OPTIONS'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JAVA_VERSION'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_18'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_18_x64'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JDK_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.JRE_HOME'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.LANG'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.NUGET_XMLDOC_MODE'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.OLDPWD'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.PATH'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.PWD'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.SERVER_URL'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.SHLVL'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.TEAMCITY_CAPTURE_ENV'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env.TEAMCITY_GIT_PATH'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='env._'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.home.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.agent.work.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.teamcity.agent.cpuBenchmark'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='B' AND PARAM_NAME='system.teamcity.build.tempDir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCLI'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCLI_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCoreSDK2.2.103_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='DotNetCoreSDK2.2_Path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.server.osType'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.server.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='docker.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='dockerCompose.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hardware.cpuCount'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hardware.memorySizeMb'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.home.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.hostname'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.file.encoding'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.file.separator'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.java.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.arch'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.os.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.path.separator'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.specification'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.language'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.user.timezone'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.jvm.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.launcher.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.name'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.os.arch.bits'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.ownPort'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.protocol'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.tools.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.work.dir'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.agent.work.dir.freeSpaceMb'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.dotCover.home'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.hg.agent.path'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.hg.version'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.serverUrl'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.1.0.7'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.BUNDLED'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.TeamCity.Dotnet.Integration.DEFAULT'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.ant-net-tasks'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.dotCover'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.gant'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.idea-runner-runtime-libs'
+DELETE FROM AGENT_TYPE_PARAM WHERE AGENT_TYPE_ID=1 AND PARAM_KIND='C' AND PARAM_NAME='teamcity.tool.jps'
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.PWD','/opt/buildagent/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.LANG','C.UTF-8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.NUGET_XMLDOC_MODE','skip')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_18','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.HOME','/root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.PATH','/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.TEAMCITY_CAPTURE_ENV','"/opt/java/openjdk/jre/bin/java" -jar "/opt/buildagent/plugins/environment-fetcher/bin/env-fetcher.jar"')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.work.dir','/opt/buildagent/work')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.CONFIG_FILE','/data/teamcity_agent/conf/buildAgent.properties')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.ASPNETCORE_URLS','http://+:80')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.GIT_SSH_VARIANT','ssh')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_18_x64','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.SERVER_URL','http://server:8111')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.HOSTNAME','1153a6e717a7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_VERSION','jdk8u192-b12')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env._','/opt/buildagent/bin/agent.sh')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.SHLVL','1')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_SDK_VERSION','2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.teamcity.build.tempDir','/opt/buildagent/temp/buildTmp')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_CLI_TELEMETRY_OPTOUT','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_SKIP_FIRST_TIME_EXPERIENCE','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.teamcity.agent.cpuBenchmark','188')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_RUNNING_IN_CONTAINER','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.home.dir','/opt/buildagent')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JRE_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.TEAMCITY_GIT_PATH','/usr/bin/git')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.AGENT_NAME','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.DOTNET_USE_POLLING_FILE_WATCHER','true')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JAVA_TOOL_OPTIONS','-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.JDK_HOME','/opt/java/openjdk')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','env.OLDPWD','/opt/buildagent/bin')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'B','system.agent.name','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.os.arch.bits','64')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.work.dir','/opt/buildagent/work')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.1.0.7','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCLI_Path','/usr/share/dotnet/dotnet')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.work.dir.freeSpaceMb','17803')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.gant','/opt/buildagent/tools/gant')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.file.encoding','UTF-8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.hg.version','4.5.3')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCLI','2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.file.separator','/')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.DEFAULT','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.name','root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.version','18.06.1')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.serverUrl','http://server:8111')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','dockerCompose.version','1.23.2')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCoreSDK2.2.103_Path','/usr/share/dotnet/sdk/2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.dotCover.home','%teamcity.tool.JetBrains.dotCover.CommandLineTools.bundled%')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.name','Linux')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hostname','1153a6e717a7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.timezone','GMT')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.dotCover','%teamcity.tool.JetBrains.dotCover.CommandLineTools.bundled%')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.server.version','18.09.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.specification','1.8')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.ownPort','9090')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.home.dir','/opt/buildagent')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.arch','amd64')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.protocol','polling')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.TeamCity.Dotnet.Integration.BUNDLED','/opt/buildagent/plugins/dotnet.cli/tools/TeamCity.Dotnet.Integration.1.0.7')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.os.version','4.15.0-58-generic')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.launcher.version','66342')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.tools.dir','/opt/buildagent/tools')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.version','1.8.0_192')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.jps','/opt/buildagent/tools/jps')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','DotNetCoreSDK2.2_Path','/usr/share/dotnet/sdk/2.2.103')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.language','en')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.idea-runner-runtime-libs','/opt/buildagent/plugins/idea-runner-runtime-libs')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.java.home','/opt/java/openjdk/jre')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.name','agent_first')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hardware.memorySizeMb','5701')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','docker.server.osType','linux')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.path.separator',':')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.tool.ant-net-tasks','/opt/buildagent/tools/ant-net-tasks')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.hardware.cpuCount','2')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.agent.jvm.user.home','/root')
+INSERT INTO AGENT_TYPE_PARAM VALUES(1,'C','teamcity.hg.agent.path','hg')
+COMMIT
+INSERT INTO NODE_EVENTS VALUES(207,'agentDescriptionUpdated',1,1,NULL,'MAIN_SERVER','2019-08-16 14:31:54.474000')
+COMMIT
+/*C5*/INSERT INTO BUILD_DATA_STORAGE VALUES(8,3014510524022395756,19389.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,-4924562750898875443,3.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,-3896958621569208557,0.000000)
+COMMIT
+INSERT INTO BUILD_DATA_STORAGE VALUES(8,-6371738409877395985,19.000000)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=1 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='diskusagedata={"ver":8,"log":104966,"art":0,"artI":32655,"non":0,"builds":[[6,57442],[1,33487],[7,17143],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":7,"cleanBuilds":7,"cleanSize":0,"date":-1}\u000a' AND UPDATE_DATE=1565965873312
+INSERT INTO CUSTOM_DATA_BODY VALUES(1,0,1,'diskusagedata={"ver":9,"log":116853,"art":0,"artI":40090,"non":0,"builds":[[6,57442],[1,33487],[8,19322],[7,17143],[2,8227],[5,7108],[4,7108],[3,7106]],"totBuilds":8,"cleanBuilds":8,"cleanSize":0,"date":-1}\u000a',1565965993315)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965820045\u000a' AND UPDATE_DATE=1565965873313
+INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965960724\u000a',1565965993315)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=3 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='##teamcity##:createTime=1565965820043\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a' AND UPDATE_DATE=1565965873314
+INSERT INTO CUSTOM_DATA_BODY VALUES(3,0,1,'##teamcity##:createTime=1565965960722\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a',1565965993315)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=8 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='currentCheckInterval=-1\u000alastCheckingForChangesTime=1565965960724\u000a' AND UPDATE_DATE=1565965993315
+INSERT INTO CUSTOM_DATA_BODY VALUES(8,0,1,'currentCheckInterval=-1\u000alastCheckingForChangesTime=1565966100542\u000a',1565966113316)
+COMMIT
+DELETE FROM CUSTOM_DATA_BODY WHERE ID=3 AND PART_NUM=0 AND TOTAL_PARTS=1 AND DATA_BODY='##teamcity##:createTime=1565965960722\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a' AND UPDATE_DATE=1565965993315
+INSERT INTO CUSTOM_DATA_BODY VALUES(3,0,1,'##teamcity##:createTime=1565966100540\u000a##teamcity##:defaultBranch=refs/heads/master\u000arefs/heads/master=f7f77832f607358689c748e9f68ddc3053d3ac20\u000a',1565966113317)
+COMMIT
