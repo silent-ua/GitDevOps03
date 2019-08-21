@@ -15,15 +15,6 @@
         <param name="username" value="silentua" />
       </parameters>
     </extension>
-    <extension id="PROJECT_EXT_4" type="OAuthProvider">
-      <parameters>
-        <param name="displayName" value="Docker Registry" />
-        <param name="providerType" value="Docker" />
-        <param name="repositoryUrl" value="https://docker.io" />
-        <param name="secure:userPass" value="zxx167a038071c4f8aa556744677cca94f6" />
-        <param name="userName" value="silentua" />
-      </parameters>
-    </extension>
   </project-extensions>
   <cleanup />
 </project>

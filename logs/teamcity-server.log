@@ -358,3 +358,772 @@ Collecting changes failed: jetbrains.buildServer.buildTriggers.vcs.git.submodule
 [2019-08-16 14:38:04,880]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #9 {build id=9, buildTypeId=GitDevOps03_TcBuild}
 [2019-08-16 14:38:04,882]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 9, finish date: 2019-08-16 14:38:04.829
 [2019-08-16 14:38:04,896]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #9 {promotion id=9, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-16 14:37:54.413, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker)) (new)'"}
+[2019-08-16 14:41:40,756]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=10, promotion=Build promotion {promotion id=10, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-16 14:41:40,762]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=10, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')}
+[2019-08-16 14:41:40,773]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=10, promotion id=10
+[2019-08-16 14:41:40,775]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #10 {promotion id=10, branch=<default>, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-16 14:41:40.768, running}
+[2019-08-16 14:41:40,776]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 10
+[2019-08-16 14:41:40,790]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 24ms, number of builds started: 1
+[2019-08-16 14:41:55,679]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #10 {build id=10, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:41:55,680]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #10 {build id=10, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:41:55,680]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #10 {build id=10, buildTypeId=GitDevOps03_TcBuild}, task id: 22
+[2019-08-16 14:41:55,682]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #10 {build id=10, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 14:41:55,684]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 10, finish date: 2019-08-16 14:41:55.638
+[2019-08-16 14:41:55,706]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #10 {promotion id=10, branch=<default>, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-08-16 14:41:41.527, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-16 16:17:35,844]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 401 (Unauthorized)
+[2019-08-16 16:17:35,846]   WARN -   jetbrains.buildServer.SERVER - Test connection to https://registry.hub.docker.com/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-16 16:17:51,188]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 4, version after: 5") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection added"
+[2019-08-16 16:18:13,656]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-16 16:18:13,656]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-16 16:18:13,657]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-16 16:18:13,658]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-16 16:18:19,585]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=11, promotion=Build promotion {promotion id=11, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-16 16:18:19,587]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=11} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-16 16:18:19,588]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=11, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-16 16:18:19,596]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=11, promotion id=11
+[2019-08-16 16:18:19,599]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #11 {promotion id=11, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 16:18:19.594, running}
+[2019-08-16 16:18:19,600]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 11
+[2019-08-16 16:18:19,600]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 8ms, number of builds started: 1
+[2019-08-16 16:18:31,623]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #11 {build id=11, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 16:18:31,623]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #11 {build id=11, buildTypeId=GitDevOps03_TcBuild}, task id: 24
+[2019-08-16 16:18:31,624]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #11 {build id=11, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 16:18:31,628]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #11 {build id=11, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-16 16:18:31,630]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 11, finish date: 2019-08-16 16:18:31.582
+[2019-08-16 16:18:31,635]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #11 {promotion id=11, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-16 16:18:21.664, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-16 16:45:58,711]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-16 16:45:58,712]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-16 16:45:58,712]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-16 16:45:58,714]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-16 16:54:49,557]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 5, version after: 6") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection added"
+[2019-08-16 16:55:02,560]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-16 16:55:02,560]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-16 16:55:02,561]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-16 16:55:02,562]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-16 23:15:14,223]   INFO -  jetbrains.buildServer.CLEANUP - Removed 20 multi-node tasks finished before 2019-08-16 15:15:14.223
+[2019-08-17 01:15:14,223]   INFO -  jetbrains.buildServer.CLEANUP - Removed 2 multi-node tasks finished before 2019-08-16 17:15:14.223
+[2019-08-17 02:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup started
+[2019-08-17 02:00:00,118]   INFO -  jetbrains.buildServer.CLEANUP - Use git at path 'git'
+[2019-08-17 02:00:00,118]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection started
+[2019-08-17 02:00:00,118]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] repository url: 'https://silentua@github.com/silent-ua/GitDevOps03.git'
+[2019-08-17 02:00:00,119]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] no git gc is needed
+[2019-08-17 02:00:00,119]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection finished, it took 101ms
+[2019-08-17 02:00:00,119]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup finished
+[2019-08-17 03:00:00,004]   INFO -  jetbrains.buildServer.CLEANUP - Trying to get lock for the maintenance process...
+[2019-08-17 03:00:00,004]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process obtained
+[2019-08-17 03:00:00,012]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-18 03:00:00.000
+[2019-08-17 03:00:00,040]   INFO -  jetbrains.buildServer.CLEANUP - Preparing for clean-up...
+[2019-08-17 03:00:00,042]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up started...
+[2019-08-17 03:00:00,049]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by specific build number ...
+[2019-08-17 03:00:00,197]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by sources or artifacts...
+[2019-08-17 03:00:00,208]   INFO -  jetbrains.buildServer.CLEANUP - Done collecting depending builds for each cleanup level
+[2019-08-17 03:00:00,208]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds for cleanup for each cleanup level...
+[2019-08-17 03:00:00,215]   INFO -  jetbrains.buildServer.CLEANUP - Collected builds for 1 build configurations
+[2019-08-17 03:00:00,219]   INFO -  jetbrains.buildServer.CLEANUP - Start compacting HSQL database...
+[2019-08-17 03:00:00,221]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown compact on HSQL database...
+[2019-08-17 03:00:00,733]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown compact performed successfully.
+[2019-08-17 03:00:00,820]   INFO -  jetbrains.buildServer.CLEANUP - Compacting HSQL database finished
+[2019-08-17 03:00:00,887]   INFO -  jetbrains.buildServer.CLEANUP - Start processing 31 afterCleanup extensions
+[2019-08-17 03:00:00,888]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (1 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BackgroundBuildDataCleanerImpl
+[2019-08-17 03:00:00,892]   INFO -  jetbrains.buildServer.CLEANUP - 		Cleaning data from the build-related tables which does not belong to 11 existing builds
+[2019-08-17 03:00:00,898]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (2 of 31): jetbrains.buildServer.artifacts.s3.cleanup.S3CleanupExtension
+[2019-08-17 03:00:00,898]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (3 of 31): jetbrains.buildServer.serverSide.statistics.diskusage.DiskUsageSListener$PinnedBuildsCollector
+[2019-08-17 03:00:00,898]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (4 of 31): jetbrains.buildServer.serverSide.mute.LowLevelProblemMutingServiceImpl$TestMutesCleaner
+[2019-08-17 03:00:00,898]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (5 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.ObsoleteFilesCleaner
+[2019-08-17 03:00:00,899]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (6 of 31): jetbrains.buildServer.serverSide.identifiers.ProjectIdentifiersManagerImpl
+[2019-08-17 03:00:00,903]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete log files (not used by any build) under build logs directory: /data/teamcity_server/datadir/system/messages
+[2019-08-17 03:00:00,904]   INFO -  jetbrains.buildServer.CLEANUP - Cannot find obsolete build log directories in old format
+[2019-08-17 03:00:00,909]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete artifact directories (not used by any build) under directories: [/data/teamcity_server/datadir/system/artifacts]
+[2019-08-17 03:00:00,913]   INFO -  jetbrains.buildServer.CLEANUP - Removed no obsolete artifact directories (14 processed)
+[2019-08-17 03:00:00,914]   INFO -  jetbrains.buildServer.CLEANUP - Removed 1 empty artifact directories
+[2019-08-17 03:00:00,920]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (7 of 31): jetbrains.buildServer.runner.codeInspection.InspectionDataCleaner
+[2019-08-17 03:00:00,928]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (8 of 31): jetbrains.buildServer.serverSide.identifiers.BuildTypeIdentifiersManagerImpl
+[2019-08-17 03:00:00,928]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (9 of 31): jetbrains.buildServer.buildTriggers.vcs.clearcase.structure.ClearCaseStructureCache$ClearcaseCacheGeneralDataCleaner
+[2019-08-17 03:00:00,928]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (10 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.InvalidHistoryRecordsCleaner
+[2019-08-17 03:00:00,932]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (11 of 31): jetbrains.buildServer.diagnostic.ThreadDumpsCleaner
+[2019-08-17 03:00:00,937]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (12 of 31): jetbrains.buildServer.serverSide.statistics.impl.BuildDataStorageImpl
+[2019-08-17 03:00:00,937]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (13 of 31): jetbrains.buildServer.serverSide.TestName2IndexImpl
+[2019-08-17 03:00:00,941]   INFO -  jetbrains.buildServer.CLEANUP - 		Start cleaning unused test names ...
+[2019-08-17 03:00:00,951]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (14 of 31): jetbrains.buildServer.serverSide.impl.OldAgentsCleaner
+[2019-08-17 03:00:00,951]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (15 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BuildArtifactsCleaner
+[2019-08-17 03:00:00,951]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (16 of 31): jetbrains.buildServer.vcs.impl.VcsModificationsCleaner
+[2019-08-17 03:00:00,953]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (17 of 31): jetbrains.buildServer.serverSide.impl.projectSources.PatchCacheImpl
+[2019-08-17 03:00:00,955]   INFO - .projectSources.PatchCacheImpl - Cleaned 0 cached server-side patches of size 0 B in '/data/teamcity_server/datadir/system/caches/sources' directory
+[2019-08-17 03:00:00,955]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (18 of 31): jetbrains.buildServer.serverSide.impl.artifacts.ExternalBuildArtifactsCacheImpl
+[2019-08-17 03:00:00,955]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (19 of 31): jetbrains.buildServer.serverSide.stat.TestFailureRateCollector
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (20 of 31): jetbrains.buildServer.diagnostic.ThreadStatCleaner
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (21 of 31): jetbrains.buildServer.controllers.login.RememberMe$1
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (22 of 31): jetbrains.buildServer.users.impl.UserModelImpl
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (23 of 31): org.jetbrains.teamcity.docker.cleanup.PushedImagesRegistryCleaner
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (24 of 31): jetbrains.buildServer.serverSide.impl.audit.AuditLogCleanerImpl
+[2019-08-17 03:00:00,956]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records older than 365 days ...
+[2019-08-17 03:00:00,980]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete tests ...
+[2019-08-17 03:00:00,982]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete builds ...
+[2019-08-17 03:00:00,989]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished removing audit log records.
+[2019-08-17 03:00:00,989]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (25 of 31): jetbrains.buildServer.serverSide.metadata.impl.metadata.MetadataStorageBean
+[2019-08-17 03:00:01,038]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (26 of 31): jetbrains.buildServer.serverSide.impl.versionedSettings.GeneratedSettingsCache
+[2019-08-17 03:00:01,040]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (27 of 31): jetbrains.buildServer.serverSide.impl.personal.PersonalBuildCleaner
+[2019-08-17 03:00:01,043]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (28 of 31): jetbrains.buildServer.responsibility.impl.ResponsibilityCleanupExtension
+[2019-08-17 03:00:01,044]   INFO -  jetbrains.buildServer.CLEANUP - 		Starting cleanup of responsibility entries...
+[2019-08-17 03:00:01,044]   INFO -  jetbrains.buildServer.CLEANUP - 		Will delete 0 responsibility entries
+[2019-08-17 03:00:01,044]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished cleanup of 0 responsibility entries
+[2019-08-17 03:00:01,044]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (29 of 31): jetbrains.buildServer.serverSide.CustomDataStorageManagerImpl
+[2019-08-17 03:00:01,044]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (30 of 31): jetbrains.buildServer.duplicator.DuplicatesDataCleaner
+[2019-08-17 03:00:01,048]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (31 of 31): jetbrains.buildServer.swabra.serverHealth.SwabraCleanCheckoutWatcherImpl$2
+[2019-08-17 03:00:01,053]   INFO -  jetbrains.buildServer.CLEANUP - Finished processing afterCleanup extensions, took 165ms
+[2019-08-17 03:00:01,054]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up finished, took 1s
+[2019-08-17 03:00:01,054]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-08-17 03:00:01,062]   INFO -  jetbrains.buildServer.CLEANUP - Post-cleanup tasks finished, took 7ms
+[2019-08-17 03:00:01,064]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process released
+[2019-08-18 02:00:00,001]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup started
+[2019-08-18 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - Use git at path 'git'
+[2019-08-18 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection started
+[2019-08-18 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] repository url: 'https://silentua@github.com/silent-ua/GitDevOps03.git'
+[2019-08-18 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] no git gc is needed
+[2019-08-18 02:00:00,024]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection finished, it took 22ms
+[2019-08-18 02:00:00,024]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup finished
+[2019-08-18 03:00:00,000]   INFO -  jetbrains.buildServer.CLEANUP - Trying to get lock for the maintenance process...
+[2019-08-18 03:00:00,000]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process obtained
+[2019-08-18 03:00:00,001]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-19 03:00:00.000
+[2019-08-18 03:00:00,001]   INFO -  jetbrains.buildServer.CLEANUP - Preparing for clean-up...
+[2019-08-18 03:00:00,001]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up started...
+[2019-08-18 03:00:00,007]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by specific build number ...
+[2019-08-18 03:00:00,007]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by sources or artifacts...
+[2019-08-18 03:00:00,007]   INFO -  jetbrains.buildServer.CLEANUP - Done collecting depending builds for each cleanup level
+[2019-08-18 03:00:00,007]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds for cleanup for each cleanup level...
+[2019-08-18 03:00:00,007]   INFO -  jetbrains.buildServer.CLEANUP - Collected builds for 1 build configurations
+[2019-08-18 03:00:00,008]   INFO -  jetbrains.buildServer.CLEANUP - Start compacting HSQL database...
+[2019-08-18 03:00:00,014]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown compact on HSQL database...
+[2019-08-18 03:00:00,419]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown compact performed successfully.
+[2019-08-18 03:00:00,469]   INFO -  jetbrains.buildServer.CLEANUP - Compacting HSQL database finished
+[2019-08-18 03:00:00,486]   INFO -  jetbrains.buildServer.CLEANUP - Start processing 31 afterCleanup extensions
+[2019-08-18 03:00:00,486]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (1 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BackgroundBuildDataCleanerImpl
+[2019-08-18 03:00:00,486]   INFO -  jetbrains.buildServer.CLEANUP - 		Cleaning data from the build-related tables which does not belong to 11 existing builds
+[2019-08-18 03:00:00,488]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (2 of 31): jetbrains.buildServer.artifacts.s3.cleanup.S3CleanupExtension
+[2019-08-18 03:00:00,488]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (3 of 31): jetbrains.buildServer.serverSide.statistics.diskusage.DiskUsageSListener$PinnedBuildsCollector
+[2019-08-18 03:00:00,488]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (4 of 31): jetbrains.buildServer.serverSide.mute.LowLevelProblemMutingServiceImpl$TestMutesCleaner
+[2019-08-18 03:00:00,488]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (5 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.ObsoleteFilesCleaner
+[2019-08-18 03:00:00,492]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete log files (not used by any build) under build logs directory: /data/teamcity_server/datadir/system/messages
+[2019-08-18 03:00:00,492]   INFO -  jetbrains.buildServer.CLEANUP - Cannot find obsolete build log directories in old format
+[2019-08-18 03:00:00,492]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete artifact directories (not used by any build) under directories: [/data/teamcity_server/datadir/system/artifacts]
+[2019-08-18 03:00:00,493]   INFO -  jetbrains.buildServer.CLEANUP - Removed no obsolete artifact directories (13 processed)
+[2019-08-18 03:00:00,493]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (6 of 31): jetbrains.buildServer.serverSide.identifiers.ProjectIdentifiersManagerImpl
+[2019-08-18 03:00:00,493]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (7 of 31): jetbrains.buildServer.runner.codeInspection.InspectionDataCleaner
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (8 of 31): jetbrains.buildServer.serverSide.identifiers.BuildTypeIdentifiersManagerImpl
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (9 of 31): jetbrains.buildServer.buildTriggers.vcs.clearcase.structure.ClearCaseStructureCache$ClearcaseCacheGeneralDataCleaner
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (10 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.InvalidHistoryRecordsCleaner
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (11 of 31): jetbrains.buildServer.diagnostic.ThreadDumpsCleaner
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (12 of 31): jetbrains.buildServer.serverSide.statistics.impl.BuildDataStorageImpl
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (13 of 31): jetbrains.buildServer.serverSide.TestName2IndexImpl
+[2019-08-18 03:00:00,494]   INFO -  jetbrains.buildServer.CLEANUP - 		Start cleaning unused test names ...
+[2019-08-18 03:00:00,495]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (14 of 31): jetbrains.buildServer.serverSide.impl.OldAgentsCleaner
+[2019-08-18 03:00:00,495]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (15 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BuildArtifactsCleaner
+[2019-08-18 03:00:00,495]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (16 of 31): jetbrains.buildServer.vcs.impl.VcsModificationsCleaner
+[2019-08-18 03:00:00,495]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (17 of 31): jetbrains.buildServer.serverSide.impl.projectSources.PatchCacheImpl
+[2019-08-18 03:00:00,496]   INFO - .projectSources.PatchCacheImpl - Cleaned 0 cached server-side patches of size 0 B in '/data/teamcity_server/datadir/system/caches/sources' directory
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (18 of 31): jetbrains.buildServer.serverSide.impl.artifacts.ExternalBuildArtifactsCacheImpl
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (19 of 31): jetbrains.buildServer.serverSide.stat.TestFailureRateCollector
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (20 of 31): jetbrains.buildServer.diagnostic.ThreadStatCleaner
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (21 of 31): jetbrains.buildServer.controllers.login.RememberMe$1
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (22 of 31): jetbrains.buildServer.users.impl.UserModelImpl
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (23 of 31): org.jetbrains.teamcity.docker.cleanup.PushedImagesRegistryCleaner
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (24 of 31): jetbrains.buildServer.serverSide.impl.audit.AuditLogCleanerImpl
+[2019-08-18 03:00:00,496]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records older than 365 days ...
+[2019-08-18 03:00:00,498]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete tests ...
+[2019-08-18 03:00:00,499]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete builds ...
+[2019-08-18 03:00:00,500]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished removing audit log records.
+[2019-08-18 03:00:00,500]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (25 of 31): jetbrains.buildServer.serverSide.metadata.impl.metadata.MetadataStorageBean
+[2019-08-18 03:00:00,540]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (26 of 31): jetbrains.buildServer.serverSide.impl.versionedSettings.GeneratedSettingsCache
+[2019-08-18 03:00:00,540]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (27 of 31): jetbrains.buildServer.serverSide.impl.personal.PersonalBuildCleaner
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (28 of 31): jetbrains.buildServer.responsibility.impl.ResponsibilityCleanupExtension
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 		Starting cleanup of responsibility entries...
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 		Will delete 0 responsibility entries
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished cleanup of 0 responsibility entries
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (29 of 31): jetbrains.buildServer.serverSide.CustomDataStorageManagerImpl
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (30 of 31): jetbrains.buildServer.duplicator.DuplicatesDataCleaner
+[2019-08-18 03:00:00,541]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (31 of 31): jetbrains.buildServer.swabra.serverHealth.SwabraCleanCheckoutWatcherImpl$2
+[2019-08-18 03:00:00,542]   INFO -  jetbrains.buildServer.CLEANUP - Finished processing afterCleanup extensions, took 55ms
+[2019-08-18 03:00:00,542]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up finished, took < 1s
+[2019-08-18 03:00:00,542]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-08-18 03:00:00,562]   INFO -  jetbrains.buildServer.CLEANUP - Post-cleanup tasks finished, took 19ms
+[2019-08-18 03:00:00,562]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process released
+[2019-08-19 02:00:00,001]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup started
+[2019-08-19 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - Use git at path 'git'
+[2019-08-19 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection started
+[2019-08-19 02:00:00,023]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] repository url: 'https://silentua@github.com/silent-ua/GitDevOps03.git'
+[2019-08-19 02:00:00,024]   INFO -  jetbrains.buildServer.CLEANUP - [git-A4D3E6C2.git] no git gc is needed
+[2019-08-19 02:00:00,024]   INFO -  jetbrains.buildServer.CLEANUP - Git garbage collection finished, it took 22ms
+[2019-08-19 02:00:00,024]   INFO -  jetbrains.buildServer.CLEANUP - Git cleanup finished
+[2019-08-19 03:00:00,002]   INFO -  jetbrains.buildServer.CLEANUP - Trying to get lock for the maintenance process...
+[2019-08-19 03:00:00,002]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process obtained
+[2019-08-19 03:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2019-08-20 03:00:00.000
+[2019-08-19 03:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - Preparing for clean-up...
+[2019-08-19 03:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up started...
+[2019-08-19 03:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by specific build number ...
+[2019-08-19 03:00:00,003]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds depending on other builds by sources or artifacts...
+[2019-08-19 03:00:00,004]   INFO -  jetbrains.buildServer.CLEANUP - Done collecting depending builds for each cleanup level
+[2019-08-19 03:00:00,004]   INFO -  jetbrains.buildServer.CLEANUP - Collecting builds for cleanup for each cleanup level...
+[2019-08-19 03:00:00,004]   INFO -  jetbrains.buildServer.CLEANUP - Collected builds for 1 build configurations
+[2019-08-19 03:00:00,005]   INFO -  jetbrains.buildServer.CLEANUP - Start compacting HSQL database...
+[2019-08-19 03:00:00,010]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown compact on HSQL database...
+[2019-08-19 03:00:00,360]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown compact performed successfully.
+[2019-08-19 03:00:00,410]   INFO -  jetbrains.buildServer.CLEANUP - Compacting HSQL database finished
+[2019-08-19 03:00:00,439]   INFO -  jetbrains.buildServer.CLEANUP - Start processing 31 afterCleanup extensions
+[2019-08-19 03:00:00,439]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (1 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BackgroundBuildDataCleanerImpl
+[2019-08-19 03:00:00,439]   INFO -  jetbrains.buildServer.CLEANUP - 		Cleaning data from the build-related tables which does not belong to 11 existing builds
+[2019-08-19 03:00:00,440]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (2 of 31): jetbrains.buildServer.artifacts.s3.cleanup.S3CleanupExtension
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (3 of 31): jetbrains.buildServer.serverSide.statistics.diskusage.DiskUsageSListener$PinnedBuildsCollector
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (4 of 31): jetbrains.buildServer.serverSide.mute.LowLevelProblemMutingServiceImpl$TestMutesCleaner
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (5 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.ObsoleteFilesCleaner
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (6 of 31): jetbrains.buildServer.serverSide.identifiers.ProjectIdentifiersManagerImpl
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (7 of 31): jetbrains.buildServer.runner.codeInspection.InspectionDataCleaner
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (8 of 31): jetbrains.buildServer.serverSide.identifiers.BuildTypeIdentifiersManagerImpl
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (9 of 31): jetbrains.buildServer.buildTriggers.vcs.clearcase.structure.ClearCaseStructureCache$ClearcaseCacheGeneralDataCleaner
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (10 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.InvalidHistoryRecordsCleaner
+[2019-08-19 03:00:00,441]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (11 of 31): jetbrains.buildServer.diagnostic.ThreadDumpsCleaner
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (12 of 31): jetbrains.buildServer.serverSide.statistics.impl.BuildDataStorageImpl
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (13 of 31): jetbrains.buildServer.serverSide.TestName2IndexImpl
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 		Start cleaning unused test names ...
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (14 of 31): jetbrains.buildServer.serverSide.impl.OldAgentsCleaner
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (15 of 31): jetbrains.buildServer.serverSide.impl.cleanup.extensions.BuildArtifactsCleaner
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (16 of 31): jetbrains.buildServer.vcs.impl.VcsModificationsCleaner
+[2019-08-19 03:00:00,442]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (17 of 31): jetbrains.buildServer.serverSide.impl.projectSources.PatchCacheImpl
+[2019-08-19 03:00:00,443]   INFO - .projectSources.PatchCacheImpl - Cleaned 0 cached server-side patches of size 0 B in '/data/teamcity_server/datadir/system/caches/sources' directory
+[2019-08-19 03:00:00,443]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (18 of 31): jetbrains.buildServer.serverSide.impl.artifacts.ExternalBuildArtifactsCacheImpl
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (19 of 31): jetbrains.buildServer.serverSide.stat.TestFailureRateCollector
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (20 of 31): jetbrains.buildServer.diagnostic.ThreadStatCleaner
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (21 of 31): jetbrains.buildServer.controllers.login.RememberMe$1
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (22 of 31): jetbrains.buildServer.users.impl.UserModelImpl
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (23 of 31): org.jetbrains.teamcity.docker.cleanup.PushedImagesRegistryCleaner
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (24 of 31): jetbrains.buildServer.serverSide.impl.audit.AuditLogCleanerImpl
+[2019-08-19 03:00:00,444]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records older than 365 days ...
+[2019-08-19 03:00:00,446]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete tests ...
+[2019-08-19 03:00:00,446]   INFO -  jetbrains.buildServer.CLEANUP - 		Removing audit log records for obsolete builds ...
+[2019-08-19 03:00:00,449]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished removing audit log records.
+[2019-08-19 03:00:00,449]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (25 of 31): jetbrains.buildServer.serverSide.metadata.impl.metadata.MetadataStorageBean
+[2019-08-19 03:00:00,462]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete log files (not used by any build) under build logs directory: /data/teamcity_server/datadir/system/messages
+[2019-08-19 03:00:00,462]   INFO -  jetbrains.buildServer.CLEANUP - Cannot find obsolete build log directories in old format
+[2019-08-19 03:00:00,463]   INFO -  jetbrains.buildServer.CLEANUP - Searching for obsolete artifact directories (not used by any build) under directories: [/data/teamcity_server/datadir/system/artifacts]
+[2019-08-19 03:00:00,464]   INFO -  jetbrains.buildServer.CLEANUP - Removed no obsolete artifact directories (13 processed)
+[2019-08-19 03:00:00,499]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (26 of 31): jetbrains.buildServer.serverSide.impl.versionedSettings.GeneratedSettingsCache
+[2019-08-19 03:00:00,499]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (27 of 31): jetbrains.buildServer.serverSide.impl.personal.PersonalBuildCleaner
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (28 of 31): jetbrains.buildServer.responsibility.impl.ResponsibilityCleanupExtension
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 		Starting cleanup of responsibility entries...
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 		Will delete 0 responsibility entries
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 		Finished cleanup of 0 responsibility entries
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (29 of 31): jetbrains.buildServer.serverSide.CustomDataStorageManagerImpl
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (30 of 31): jetbrains.buildServer.duplicator.DuplicatesDataCleaner
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - 	Executing afterCleanup extension (31 of 31): jetbrains.buildServer.swabra.serverHealth.SwabraCleanCheckoutWatcherImpl$2
+[2019-08-19 03:00:00,502]   INFO -  jetbrains.buildServer.CLEANUP - Finished processing afterCleanup extensions, took 63ms
+[2019-08-19 03:00:00,503]   INFO -  jetbrains.buildServer.CLEANUP - Clean-up finished, took < 1s
+[2019-08-19 03:00:00,503]   INFO -   jetbrains.buildServer.SERVER - Build history cache size is set to 10000 entries
+[2019-08-19 03:00:00,504]   INFO -  jetbrains.buildServer.CLEANUP - Post-cleanup tasks finished, took < 1ms
+[2019-08-19 03:00:00,504]   INFO -  jetbrains.buildServer.CLEANUP - Lock for the maintenance process released
+[2019-08-19 09:31:07,211]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 6, version after: 7") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 09:31:19,252]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 09:31:19,252]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 09:31:19,253]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:31:19,254]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:32:12,886]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 09:32:12,893]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 09:32:22,515]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 09:32:22,516]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 09:32:28,827]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 7, version after: 8") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 09:32:40,255]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 09:32:40,255]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 09:32:40,255]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:32:40,257]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:32:48,354]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=12, promotion=Build promotion {promotion id=12, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 09:32:48,356]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=12} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 09:32:48,371]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=12, promotion id=12
+[2019-08-19 09:32:48,372]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=12, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued, running}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 09:32:48,378]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #12 {promotion id=12, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 09:32:48.365, running}
+[2019-08-19 09:32:48,382]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 12
+[2019-08-19 09:32:48,383]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 22ms, number of builds started: 1
+[2019-08-19 09:32:57,898]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #12 {build id=12, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:32:57,899]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #12 {build id=12, buildTypeId=GitDevOps03_TcBuild}, task id: 4
+[2019-08-19 09:32:57,899]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #12 {build id=12, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:32:57,903]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #12 {build id=12, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:32:57,906]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 12, finish date: 2019-08-19 09:32:57.856
+[2019-08-19 09:32:57,907]   INFO -   jetbrains.buildServer.SERVER - Start loading cache of build committers...
+[2019-08-19 09:32:57,917]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #12 {promotion id=12, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 09:32:49.116, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 09:32:57,934]   INFO -   jetbrains.buildServer.SERVER - Done loading cache of build committers
+[2019-08-19 09:44:40,619]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=13, promotion=Build promotion {promotion id=13, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 09:44:40,620]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=13} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 09:44:40,623]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=13, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 09:44:40,631]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=13, promotion id=13
+[2019-08-19 09:44:40,633]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #13 {promotion id=13, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 09:44:40.628, running}
+[2019-08-19 09:44:40,640]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 13
+[2019-08-19 09:44:40,640]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 15ms, number of builds started: 1
+[2019-08-19 09:44:53,490]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #13 {build id=13, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:44:53,491]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #13 {build id=13, buildTypeId=GitDevOps03_TcBuild}, task id: 6
+[2019-08-19 09:44:53,491]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #13 {build id=13, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:44:53,494]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #13 {build id=13, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:44:53,496]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 13, finish date: 2019-08-19 09:44:53.446
+[2019-08-19 09:44:53,505]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #13 {promotion id=13, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 09:44:41.373, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 09:48:56,546]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "GitDevOps03 {id=GitDevOps03, internal id=project1}" project settings were edited ("version before: 3, version after: 4") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 09:49:07,976]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for GitDevOps03
+[2019-08-19 09:49:07,976]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 09:49:07,977]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:49:07,979]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:49:18,219]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 8, version after: 9") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 09:49:22,119]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 09:49:22,122]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 09:49:28,977]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 09:49:28,977]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 09:49:28,977]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:49:28,979]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:49:43,978]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 09:49:43,978]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 09:49:43,978]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:49:43,980]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:50:12,208]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 6, version after: 7") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'TC-Build' build configuration were updated"
+[2019-08-19 09:50:22,980]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 09:50:22,980]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 09:50:22,980]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:50:22,982]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:53:10,985]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 09:53:10,985]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 09:53:10,986]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 09:53:10,987]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 09:53:11,084]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_comment: Build BUILD_PROMOTION{id=14} was commented by "'anton' (Anton Nichaienko) {id=1}" with comment "first build"
+[2019-08-19 09:53:11,085]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=14:0:1, promotion=Build promotion {promotion id=14, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 09:53:11,087]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=14} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 09:53:11,089]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=14, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued build id=14:0:1, queued, comment="first build"}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), agent id=1}
+[2019-08-19 09:53:11,098]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=14, promotion id=14
+[2019-08-19 09:53:11,109]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #14 {promotion id=14, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 09:53:11.094, running}
+[2019-08-19 09:53:11,109]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 14
+[2019-08-19 09:53:11,110]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 18ms, number of builds started: 1
+[2019-08-19 09:53:24,063]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #14 {build id=14, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:53:24,063]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #14 {build id=14, buildTypeId=GitDevOps03_TcBuild}, task id: 8
+[2019-08-19 09:53:24,064]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #14 {build id=14, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:53:24,066]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #14 {build id=14, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 09:53:24,075]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 14, finish date: 2019-08-19 09:53:24.015
+[2019-08-19 09:53:24,084]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #14 {promotion id=14, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 09:53:11.907, finished. Status "FAILURE 'Cannot login to registry cloud.docker.com/u/silentua/repository/docker/silentua/gitdevops03 (new); exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 10:47:03,109]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 7, version after: 8") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-19 10:47:14,097]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 10:47:14,098]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 10:47:14,098]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 10:47:14,101]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 10:53:51,828]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 8, version after: 9") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-19 10:54:02,842]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 10:54:02,842]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 10:54:02,843]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 10:54:02,845]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 10:55:11,123]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 9, version after: 10") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 10:55:23,845]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 10:55:23,845]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 10:55:23,845]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 10:55:23,846]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 10:55:23,867]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 10:55:23,868]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 10:55:37,971]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 10:55:37,972]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 10:55:50,188]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 10:55:50,188]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 10:57:26,909]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 10:57:26,909]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 11:04:28,166]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker/v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker/v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:04:59,591]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker/v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker/v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:12:20,399]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 10, version after: 11") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 11:12:25,502]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker/v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker/v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:12:32,881]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 11:12:32,881]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 11:12:32,881]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:12:32,882]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:12:47,881]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 11:12:47,882]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 11:12:47,882]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:12:47,883]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:13:36,468]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_comment: Build BUILD_PROMOTION{id=15} was commented by "'anton' (Anton Nichaienko) {id=1}" with comment "first build"
+[2019-08-19 11:13:36,476]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=15:0:1, promotion=Build promotion {promotion id=15, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 11:13:36,477]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=15} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 11:13:36,488]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=15, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued build id=15:0:1, queued, comment="first build"}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), agent id=1}
+[2019-08-19 11:13:36,503]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=15, promotion id=15
+[2019-08-19 11:13:36,509]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #15 {promotion id=15, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 11:13:36.501, running}
+[2019-08-19 11:13:36,509]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 15
+[2019-08-19 11:13:36,510]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 18ms, number of builds started: 1
+[2019-08-19 11:13:49,751]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #15 {build id=15, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:13:49,751]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #15 {build id=15, buildTypeId=GitDevOps03_TcBuild}, task id: 10
+[2019-08-19 11:13:49,752]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #15 {build id=15, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:13:49,755]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #15 {build id=15, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:13:49,756]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 15, finish date: 2019-08-19 11:13:49.707
+[2019-08-19 11:13:49,767]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #15 {promotion id=15, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 11:13:37.890, finished. Status "FAILURE 'Cannot login to registry cloud.docker.com/u/silentua/repository/docker/silentua/gitdevops03; exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 11:15:20,920]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 9, version after: 10") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'TC-Build' build configuration were updated"
+[2019-08-19 11:15:32,891]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 11:15:32,893]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 11:15:32,894]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:15:32,895]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:24:36,183]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "GitDevOps03 {id=GitDevOps03, internal id=project1}" project settings were edited ("version before: 4, version after: 5") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 11:24:47,910]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for GitDevOps03
+[2019-08-19 11:24:47,910]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 11:24:47,911]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:24:47,913]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:26:32,148]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker//v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker//v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:26:43,098]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker/v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker/v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:28:30,941]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8030/repository/docker/v2/ failed: An error occurred while trying to remove image from docker repo by url: http://172.20.99.242:8030/repository/docker/v2/: org.apache.http.conn.HttpHostConnectException: Connect to 172.20.99.242:8030 [/172.20.99.242] failed: Connection refused (Connection refused) (enable debug to see stacktrace)
+[2019-08-19 11:28:51,719]   WARN -   jetbrains.buildServer.SERVER - Unable to login to Docker auth server. Server responded : 404 (Not Found)
+[2019-08-19 11:28:51,720]   WARN -   jetbrains.buildServer.SERVER - Test connection to http://172.20.99.242:8081/repository/docker/v2/ failed: Unable to get authentication token, please verify username and password
+[2019-08-19 11:31:37,946]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "GitDevOps03 {id=GitDevOps03, internal id=project1}" project settings were edited ("version before: 5, version after: 6") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection removed"
+[2019-08-19 11:31:50,924]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for GitDevOps03
+[2019-08-19 11:31:50,924]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 11:31:50,924]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:31:50,926]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:32:52,137]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 10, version after: 11") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-19 11:32:59,309]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=16, promotion=Build promotion {promotion id=16, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 11:32:59,311]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=16} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 11:32:59,313]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=16, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 11:32:59,319]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=16, promotion id=16
+[2019-08-19 11:32:59,322]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #16 {promotion id=16, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 11:32:59.318, running}
+[2019-08-19 11:32:59,322]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 16
+[2019-08-19 11:32:59,323]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 7ms, number of builds started: 1
+[2019-08-19 11:33:02,926]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 11:33:02,926]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 11:33:02,927]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:33:02,929]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:33:05,331]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #16 {build id=16, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:33:05,332]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #16 {build id=16, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:33:05,332]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #16 {build id=16, buildTypeId=GitDevOps03_TcBuild}, task id: 12
+[2019-08-19 11:33:05,335]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #16 {build id=16, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:33:05,337]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 16, finish date: 2019-08-19 11:33:05.295
+[2019-08-19 11:33:05,350]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #16 {promotion id=16, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 11:32:59.908, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 11:34:13,110]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 11, version after: 12") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-19 11:34:23,930]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 11:34:23,930]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 11:34:23,931]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 11:34:23,933]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 11:34:26,196]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=17, promotion=Build promotion {promotion id=17, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 11:34:26,198]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=17} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 11:34:26,204]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=17, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 11:34:26,209]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=17, promotion id=17
+[2019-08-19 11:34:26,212]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #17 {promotion id=17, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 11:34:26.203, running}
+[2019-08-19 11:34:26,212]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 17
+[2019-08-19 11:34:26,213]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 11ms, number of builds started: 1
+[2019-08-19 11:34:29,676]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_comment: Build BUILD_PROMOTION{id=18} was commented by "'anton' (Anton Nichaienko) {id=1}" with comment "first build"
+[2019-08-19 11:34:29,677]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=18:0:1, promotion=Build promotion {promotion id=18, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 11:34:29,678]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=18} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 11:34:29,699]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=18, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued build id=18:0:1, queued, comment="first build"}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), agent id=1}
+[2019-08-19 11:34:36,158]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #17 {build id=17, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:36,159]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #17 {build id=17, buildTypeId=GitDevOps03_TcBuild}, task id: 14
+[2019-08-19 11:34:36,159]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #17 {build id=17, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:36,162]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #17 {build id=17, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:36,163]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 17, finish date: 2019-08-19 11:34:36.119
+[2019-08-19 11:34:36,167]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=18, promotion id=18
+[2019-08-19 11:34:36,173]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #18 {promotion id=18, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 11:34:36.165, running}
+[2019-08-19 11:34:36,171]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #17 {promotion id=17, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 11:34:26.798, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 11:34:36,186]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 18
+[2019-08-19 11:34:36,187]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 22ms, number of builds started: 1
+[2019-08-19 11:34:46,706]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #18 {build id=18, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:46,707]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #18 {build id=18, buildTypeId=GitDevOps03_TcBuild}, task id: 16
+[2019-08-19 11:34:46,707]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #18 {build id=18, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:46,710]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #18 {build id=18, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 11:34:46,711]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 18, finish date: 2019-08-19 11:34:46.663
+[2019-08-19 11:34:46,720]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #18 {promotion id=18, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'), comment="first build". Started 2019-08-19 11:34:36.805, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 13:02:19,924]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 12, version after: 13") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'TC-Build' build configuration were updated"
+[2019-08-19 13:02:22,861]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=19, promotion=Build promotion {promotion id=19, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:02:22,862]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=19} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:02:22,870]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=19, promotion id=19
+[2019-08-19 13:02:22,875]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #19 {promotion id=19, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:02:22.869, running}
+[2019-08-19 13:02:22,878]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 19
+[2019-08-19 13:02:22,878]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=19, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, running}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:02:22,879]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 12ms, number of builds started: 1
+[2019-08-19 13:02:23,447]   INFO -   jetbrains.buildServer.SERVER - Will attempt to login anonymously to http://172.20.99.242:8030/repository/docker/ before the build #19 {build id=19, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:02:31,345]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:02:31,345]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:02:31,346]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:02:31,349]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:02:32,610]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #19 {build id=19, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:02:32,611]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #19 {build id=19, buildTypeId=GitDevOps03_TcBuild}, task id: 18
+[2019-08-19 13:02:32,611]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #19 {build id=19, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:02:32,613]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #19 {build id=19, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:02:32,619]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 19, finish date: 2019-08-19 13:02:32.570
+[2019-08-19 13:02:32,629]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #19 {promotion id=19, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:02:23.489, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 13:03:20,192]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 11, version after: 12") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 13:03:31,347]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 13:03:31,347]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 13:03:31,347]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:03:31,349]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:04:40,554]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 13, version after: 14") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'TC-Build' build configuration were updated"
+[2019-08-19 13:04:52,350]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:04:52,351]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:04:52,351]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:04:52,353]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:07:01,932]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=20, promotion=Build promotion {promotion id=20, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:07:01,933]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=20} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:07:01,935]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=20, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:07:01,941]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=20, promotion id=20
+[2019-08-19 13:07:01,941]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #20 {promotion id=20, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:07:01.939, running}
+[2019-08-19 13:07:01,941]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 20
+[2019-08-19 13:07:01,947]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 9ms, number of builds started: 1
+[2019-08-19 13:07:02,860]   INFO -   jetbrains.buildServer.SERVER - Will attempt to login anonymously to http://172.20.99.242:8030/repository/docker/ before the build #20 {build id=20, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:07:13,135]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #20 {build id=20, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:07:13,135]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #20 {build id=20, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:07:13,136]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #20 {build id=20, buildTypeId=GitDevOps03_TcBuild}, task id: 20
+[2019-08-19 13:07:13,138]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #20 {build id=20, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:07:13,139]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 20, finish date: 2019-08-19 13:07:13.096
+[2019-08-19 13:07:13,147]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #20 {promotion id=20, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:07:02.899, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 13:08:44,650]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 14, version after: 15") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'TC-Build' build configuration were updated"
+[2019-08-19 13:08:55,358]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:08:55,358]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:08:55,359]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:08:55,360]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:09:45,925]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 12, version after: 13") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 13:09:58,360]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 13:09:58,360]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 13:09:58,361]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:09:58,362]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:10:14,540]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=21, promotion=Build promotion {promotion id=21, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:10:14,542]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=21} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:10:14,543]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=21, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:10:14,549]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=21, promotion id=21
+[2019-08-19 13:10:14,553]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #21 {promotion id=21, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:10:14.548, running}
+[2019-08-19 13:10:14,553]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 21
+[2019-08-19 13:10:14,554]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 7ms, number of builds started: 1
+[2019-08-19 13:10:23,943]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #21 {build id=21, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:10:23,944]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #21 {build id=21, buildTypeId=GitDevOps03_TcBuild}, task id: 22
+[2019-08-19 13:10:23,944]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #21 {build id=21, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:10:23,947]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #21 {build id=21, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:10:23,948]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 21, finish date: 2019-08-19 13:10:23.903
+[2019-08-19 13:10:23,953]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / TC-Build {id=GitDevOps03_TcBuild, internal id=bt1} #21 {promotion id=21, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:10:15.137, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Docker))'"}
+[2019-08-19 13:15:01,792]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "GitDevOps03 / NICHAIENKO" was removed by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:15:13,370]   INFO - projects.ProjectEventsNotifier - Processing vcsRootRemoved for GitDevOps03_Nichaienko
+[2019-08-19 13:15:13,371]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03_Nichaienko'
+[2019-08-19 13:15:13,371]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:15:13,371]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:27:36,661]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03-Build {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 15, version after: 16") by "'anton' (Anton Nichaienko) {id=1}" with comment "general settings of 'GitDevOps03-Build' build configuration were updated"
+[2019-08-19 13:27:36,661]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/21" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,662]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/19" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,663]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/17" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,665]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/11" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,666]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/20" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,667]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/18" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,667]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/6" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,669]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/5" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,670]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/1" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,671]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/3" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,672]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/12" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,674]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/14" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,675]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/8" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,676]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/2" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,677]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/15" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,678]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/16" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,679]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/9" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,680]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/10" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,681]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/7" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,682]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/4" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:36,683]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/TC-Build/13" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build"
+[2019-08-19 13:27:45,950]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/21" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,953]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/19" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,954]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/17" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,955]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/11" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,955]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/20" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,957]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 16, version after: 17") by "'anton' (Anton Nichaienko) {id=1}" with comment "general settings of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:27:45,958]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/18" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,959]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/6" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,959]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/5" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,960]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/1" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,961]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/3" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,961]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/12" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,962]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/14" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,963]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/8" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,963]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/2" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,964]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/15" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,965]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/16" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,965]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/9" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,966]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/10" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,967]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/7" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,967]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/4" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:45,968]   INFO -  jetbrains.buildServer.CLEANUP - Fixed location of build artifacts directory: moved "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03-Build/13" under "/data/teamcity_server/datadir/system/artifacts/GitDevOps03/GitDevOps03"
+[2019-08-19 13:27:58,397]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:27:58,398]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:27:58,398]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:27:58,400]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:29:40,264]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 17, version after: 18") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:29:52,401]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:29:52,401]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:29:52,402]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:29:52,403]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:30:02,902]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=22, promotion=Build promotion {promotion id=22, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:30:02,906]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=22} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:30:02,907]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=22, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:30:02,915]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=22, promotion id=22
+[2019-08-19 13:30:02,922]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #22 {promotion id=22, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:30:02.913, running}
+[2019-08-19 13:30:02,923]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 22
+[2019-08-19 13:30:02,924]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 13ms, number of builds started: 1
+[2019-08-19 13:30:14,750]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #22 {build id=22, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:30:14,751]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #22 {build id=22, buildTypeId=GitDevOps03_TcBuild}, task id: 24
+[2019-08-19 13:30:14,751]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #22 {build id=22, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:30:14,754]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #22 {build id=22, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:30:14,756]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 22, finish date: 2019-08-19 13:30:14.706
+[2019-08-19 13:30:14,765]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #22 {promotion id=22, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:30:04.342, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Command Line)) (new)'"}
+[2019-08-19 13:32:06,908]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 18, version after: 19") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:32:10,095]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=23, promotion=Build promotion {promotion id=23, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:32:10,097]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=23} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:32:10,104]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=23, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:32:10,109]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=23, promotion id=23
+[2019-08-19 13:32:10,112]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #23 {promotion id=23, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:32:10.107, running}
+[2019-08-19 13:32:10,112]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 23
+[2019-08-19 13:32:10,116]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 11ms, number of builds started: 1
+[2019-08-19 13:32:19,416]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:32:19,416]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:32:19,417]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:32:19,418]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:32:20,571]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #23 {build id=23, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:32:20,571]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #23 {build id=23, buildTypeId=GitDevOps03_TcBuild}, task id: 26
+[2019-08-19 13:32:20,572]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #23 {build id=23, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:32:20,574]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #23 {build id=23, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:32:20,575]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 23, finish date: 2019-08-19 13:32:20.524
+[2019-08-19 13:32:20,582]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #23 {promotion id=23, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:32:10.761, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to docker hub (Command Line))'"}
+[2019-08-19 13:42:12,691]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 19, version after: 20") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:42:25,438]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:42:25,438]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:42:25,439]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:42:25,441]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:42:30,171]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 20, version after: 21") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:42:33,482]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=24, promotion=Build promotion {promotion id=24, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:42:33,483]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=24} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:42:33,484]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=24, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:42:33,491]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=24, promotion id=24
+[2019-08-19 13:42:33,494]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #24 {promotion id=24, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:42:33.489, running}
+[2019-08-19 13:42:33,494]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 24
+[2019-08-19 13:42:33,494]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 7ms, number of builds started: 1
+[2019-08-19 13:42:40,439]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:42:40,439]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:42:40,439]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:42:40,441]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:42:56,150]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #24 {build id=24, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:42:56,151]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #24 {build id=24, buildTypeId=GitDevOps03_TcBuild}, task id: 28
+[2019-08-19 13:42:56,151]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #24 {build id=24, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:42:56,153]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #24 {build id=24, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:42:56,154]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 24, finish date: 2019-08-19 13:42:56.111
+[2019-08-19 13:42:56,168]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #24 {promotion id=24, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:42:34.135, finished. Status "NORMAL 'Running'"}
+[2019-08-19 13:51:03,060]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 21, version after: 22") by "'anton' (Anton Nichaienko) {id=1}" with comment "build step was copied in 'GitDevOps03' build configuration"
+[2019-08-19 13:51:14,252]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:51:14,252]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:51:14,252]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:51:14,254]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:54:41,224]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 22, version after: 23") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:54:51,166]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 23, version after: 24") by "'anton' (Anton Nichaienko) {id=1}" with comment "'GitDevOps03' build configuration settings were updated"
+[2019-08-19 13:54:57,063]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=25, promotion=Build promotion {promotion id=25, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:54:57,065]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=25} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:54:57,067]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=25, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:54:57,075]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=25, promotion id=25
+[2019-08-19 13:54:57,076]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #25 {promotion id=25, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:54:57.073, running}
+[2019-08-19 13:54:57,076]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 25
+[2019-08-19 13:54:57,076]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 5ms, number of builds started: 1
+[2019-08-19 13:55:02,259]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:55:02,259]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:55:02,259]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:55:02,261]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:55:06,958]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #25 {build id=25, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:55:06,959]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #25 {build id=25, buildTypeId=GitDevOps03_TcBuild}, task id: 30
+[2019-08-19 13:55:06,959]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #25 {build id=25, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:55:06,962]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #25 {build id=25, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:55:06,963]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 25, finish date: 2019-08-19 13:55:06.916
+[2019-08-19 13:55:06,970]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #25 {promotion id=25, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:54:57.655, finished. Status "FAILURE 'Exit code 1 (Step: Push docker image to Nexus locally (Command Line)) (new)'"}
+[2019-08-19 13:57:37,228]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 24, version after: 25") by "'anton' (Anton Nichaienko) {id=1}" with comment "runners of 'GitDevOps03' build configuration were updated"
+[2019-08-19 13:57:39,486]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=26, promotion=Build promotion {promotion id=26, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 13:57:39,487]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=26} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 13:57:39,488]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=26, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 13:57:39,495]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=26, promotion id=26
+[2019-08-19 13:57:39,498]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #26 {promotion id=26, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:57:39.493, running}
+[2019-08-19 13:57:39,503]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 26
+[2019-08-19 13:57:39,507]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 15ms, number of builds started: 1
+[2019-08-19 13:57:47,264]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 13:57:47,264]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 13:57:47,265]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 13:57:47,267]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 13:57:52,510]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #26 {build id=26, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:57:52,510]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #26 {build id=26, buildTypeId=GitDevOps03_TcBuild}, task id: 32
+[2019-08-19 13:57:52,511]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #26 {build id=26, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:57:52,513]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #26 {build id=26, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 13:57:52,514]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 26, finish date: 2019-08-19 13:57:52.466
+[2019-08-19 13:57:52,519]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #26 {promotion id=26, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 13:57:40.085, finished. Status "NORMAL 'Running'"}
+[2019-08-19 14:00:15,069]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 25, version after: 26") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'GitDevOps03' build configuration were updated"
+[2019-08-19 14:00:20,601]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=27, promotion=Build promotion {promotion id=27, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 14:00:20,602]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=27} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 14:00:20,604]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=27, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 14:00:20,610]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=27, promotion id=27
+[2019-08-19 14:00:20,618]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #27 {promotion id=27, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 14:00:20.608, running}
+[2019-08-19 14:00:20,619]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 27
+[2019-08-19 14:00:20,619]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 13ms, number of builds started: 1
+[2019-08-19 14:00:21,197]   INFO -   jetbrains.buildServer.SERVER - Will attempt to login anonymously to http://172.20.99.242:8081/repository/docker/ before the build #27 {build id=27, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:00:26,269]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 14:00:26,273]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 14:00:26,273]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 14:00:26,275]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 14:00:33,318]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #27 {build id=27, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:00:33,319]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #27 {build id=27, buildTypeId=GitDevOps03_TcBuild}, task id: 34
+[2019-08-19 14:00:33,319]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #27 {build id=27, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:00:33,322]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #27 {build id=27, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:00:33,323]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 27, finish date: 2019-08-19 14:00:33.278
+[2019-08-19 14:00:33,330]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #27 {promotion id=27, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 14:00:21.224, finished. Status "FAILURE 'Unable to push docker.io/silentua/gitdevops03:latest to remote repository:
+Unauthorized (new); exit code 1 (Step: Push docker image to Nexus locally (Command Line)) (new)'"}
+[2019-08-19 14:02:08,273]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 14:02:08,273]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 14:02:08,274]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 14:02:08,276]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 14:24:05,162]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_edit_settings: "<Root project> {id=_Root, internal id=_Root}" project settings were edited ("version before: 13, version after: 14") by "'anton' (Anton Nichaienko) {id=1}" with comment "Connection updated"
+[2019-08-19 14:24:17,318]   INFO - projects.ProjectEventsNotifier - Processing projectPersisted for _Root
+[2019-08-19 14:24:17,318]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project '_Root'
+[2019-08-19 14:24:17,318]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 14:24:17,319]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 14:24:23,819]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=28, promotion=Build promotion {promotion id=28, configuration={id=GitDevOps03_TcBuild, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-08-19 14:24:23,821]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_add_to_queue: Build BUILD_PROMOTION{id=28} was added to queue by "'anton' (Anton Nichaienko) {id=1}"
+[2019-08-19 14:24:23,823]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=28, configuration={id=GitDevOps03_TcBuild, internal id=bt1}, branch=<default>, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
+[2019-08-19 14:24:23,830]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=28, promotion id=28
+[2019-08-19 14:24:23,833]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #28 {promotion id=28, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 14:24:23.828, running}
+[2019-08-19 14:24:23,839]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 28
+[2019-08-19 14:24:23,840]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 13ms, number of builds started: 1
+[2019-08-19 14:24:24,438]   INFO -   jetbrains.buildServer.SERVER - Will attempt to login anonymously to http://172.20.99.242:8081/repository/docker/ before the build #28 {build id=28, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:24:32,318]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 14:24:32,319]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 14:24:32,319]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 14:24:32,321]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 14:24:34,054]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #28 {build id=28, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:24:34,054]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #28 {build id=28, buildTypeId=GitDevOps03_TcBuild}, task id: 36
+[2019-08-19 14:24:34,055]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #28 {build id=28, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:24:34,057]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #28 {build id=28, buildTypeId=GitDevOps03_TcBuild}
+[2019-08-19 14:24:34,062]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 28, finish date: 2019-08-19 14:24:34.011
+[2019-08-19 14:24:34,072]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1} #28 {promotion id=28, branch=<default>, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-19 14:24:24.474, finished. Status "FAILURE 'Unable to push docker.io/silentua/gitdevops03:latest to remote repository:
+Unauthorized; exit code 1 (Step: Push docker image to Nexus locally (Command Line))'"}
+[2019-08-19 14:26:12,853]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_edit_settings: "GitDevOps03 / GitDevOps03 {id=GitDevOps03_TcBuild, internal id=bt1}" build configuration settings were edited ("version before: 26, version after: 27") by "'anton' (Anton Nichaienko) {id=1}" with comment "build features of 'GitDevOps03' build configuration were updated"
+[2019-08-19 14:26:23,322]   INFO - projects.ProjectEventsNotifier - Processing buildTypePersisted for GitDevOps03
+[2019-08-19 14:26:23,323]   INFO - projects.ProjectEventsNotifier - Adding event 'projectConfigChanged' for project 'GitDevOps03'
+[2019-08-19 14:26:23,323]   INFO - ojects.ProjectConfigFilesCache - Start creating project configuration files caches for 1 projects...
+[2019-08-19 14:26:23,325]   INFO - ojects.ProjectConfigFilesCache - Finished creating project configuration files caches for 1 projects
+[2019-08-19 14:51:17,445]   INFO -    jetbrains.buildServer.AGENT - Agent can't be pinged, last communication time: 2019-08-19 14:50:09.286, agent: "agent_first" {id=1, protocol=unidirectional, host=172.18.0.3:9090, agentTypeId=1, pool=Default, registered since 2019-08-16 11:17:31.841}
+[2019-08-19 14:51:17,445]   INFO - ldServer.AGENT.PollingProtocol - Polling Agent session 'rgMiF1T...' was closed, agent: "agent_first" {id=1}
+[2019-08-19 14:51:17,446]   INFO -    jetbrains.buildServer.AGENT - Agent "agent_first" {id=1} has been unregistered. Reason: Cannot access agent
+[2019-08-19 14:57:41,391]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-08-19 14:57:41,391]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-08-19 14:57:41,391]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-08-19 14:57:41,492]   INFO -  jetbrains.buildServer.STARTUP - Destroying the main servlet
+[2019-08-19 14:57:41,492]   INFO - MainTeamCityApplicationContext - Closing WebApplicationContext for namespace 'buildServer-servlet': startup date [Fri Aug 16 11:15:07 GMT 2019]; parent: TeamCity Root WebApplicationContext
+[2019-08-19 14:57:41,493]   INFO - tbrains.buildServer.ACTIVITIES - Shutdown Spring components
+[2019-08-19 14:57:41,494]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Ping 1"
+[2019-08-19 14:57:41,494]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Flush Queue 1"
+[2019-08-19 14:57:41,494]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Build Triggers Monitor 1"
+[2019-08-19 14:57:41,499]   INFO -   jetbrains.buildServer.SERVER - Saving projects credentials on disk ...
+[2019-08-19 14:57:41,499]   INFO -   jetbrains.buildServer.SERVER - Saving projects credentials on disk finished
+[2019-08-19 14:57:41,499]   INFO - ojects.BackgroundPersisterImpl - Shutdown background persister
+[2019-08-19 14:57:42,334]   INFO - ojects.BackgroundPersisterImpl - Background persister shutdown complete
+[2019-08-19 14:57:42,393]   INFO - Server.serverSide.TmpFilesImpl - Delete temp files on server shutdown
+[2019-08-19 14:57:42,908]   INFO - Server.serverSide.TmpFilesImpl - Temp files were deleted in 515ms
+[2019-08-19 14:57:42,909]   INFO - .index.BuildIndexer (metadata) - Background build indexer finished
+[2019-08-19 14:57:43,021]   INFO -   jetbrains.buildServer.SERVER - Finishing pending agents long-polling requests
+[2019-08-19 14:57:43,025]   INFO - ld.index.BuildIndexer (search) - Background build indexer finished
+[2019-08-19 14:57:44,135]   INFO - rShutdownProcessTerminatorImpl - Start killing all child processes. To disable it set 'teamcity.kill.child.processes.on.shutdown' JVM property to 'false'
+[2019-08-19 14:57:44,137]   INFO - rocesses.ProcessTreeTerminator - Using jetbrains.buildServer.processes.ProcessTreeTerminatorLinux
+[2019-08-19 14:57:44,138]   INFO - .ProcessTreeTerminatorImplBase - Will use command 'sh -c echo $$ && ps awwxo pid,ppid,command | tee'.
+[2019-08-19 14:57:44,187]   INFO - .ProcessTreeTerminatorImplBase - Will use command 'sh -c echo $$ && ps awwxo pid,ppid,command | tee'.
+[2019-08-19 14:57:44,211]   INFO - ses.ProcessTreeTerminatorLinux - Second thread id is 114
+[2019-08-19 14:57:44,211]   INFO - ses.ProcessTreeTerminatorLinux - Thread is Process thread model: false
+[2019-08-19 14:57:44,211]   INFO - .ProcessTreeTerminatorImplBase - Collecting processes from the current one, current process PID 114
+[2019-08-19 14:57:44,213]   INFO - .ProcessTreeTerminatorImplBase - No processes to kill
+[2019-08-19 14:57:44,214]   INFO - tbrains.buildServer.ACTIVITIES - Spring components are shut down
+[2019-08-19 14:57:44,218]   INFO - til.ChildSpringContextLoader$1 - Closing SubContext (BuildAgentUpgrade): startup date [Fri Aug 16 11:15:24 GMT 2019]; parent: WebApplicationContext for namespace 'buildServer-servlet'
+[2019-08-19 14:57:44,336]   INFO -  jetbrains.buildServer.STARTUP - The main servlet destroyed
+[2019-08-19 14:57:44,337]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown on HSQL database...
+[2019-08-19 14:57:44,550]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown performed successfully.
+[2019-08-19 14:57:44,551]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-19 14:57:44,551]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete. Uptime was 3d:03h

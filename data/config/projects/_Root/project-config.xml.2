@@ -18,7 +18,23 @@
         <param name="displayName" value="GitHub.com" />
         <param name="gitHubUrl" value="https://github.com/" />
         <param name="providerType" value="GitHub" />
-        <param name="secure:clientSecret" value="zxx167a038071c4f8aab28d6af7b2e23b01" />
+        <param name="secure:clientSecret" value="zxx167a038071c4f8aa556744677cca94f6" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_5" type="OAuthProvider">
+      <parameters>
+        <param name="displayName" value="Docker Registry" />
+        <param name="providerType" value="Docker" />
+        <param name="repositoryUrl" value="https://docker.io/" />
+        <param name="secure:userPass" value="zxx167a038071c4f8aa556744677cca94f6" />
+        <param name="userName" value="silentua" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_6" type="OAuthProvider">
+      <parameters>
+        <param name="displayName" value="Nexus" />
+        <param name="providerType" value="Docker" />
+        <param name="repositoryUrl" value="http://172.20.99.242:8030/repository/docker/" />
       </parameters>
     </extension>
   </project-extensions>

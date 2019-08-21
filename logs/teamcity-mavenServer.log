@@ -3,3 +3,6 @@
 [2019-08-16 11:15:50,314]   INFO - r.maven.remote.MavenServerImpl - Successfully bound Maven Server to name: [teamcity-mavenServer] 
 [2019-08-16 11:15:50,315]   INFO - r.maven.remote.MavenServerImpl - using name of running JVM: [215@c70efd4647a8] 
 [2019-08-16 11:15:50,317]   INFO - r.maven.remote.MavenServerImpl - Printed following string to output: [215/51632] 
+[2019-08-19 14:57:43,208]   INFO - r.maven.remote.MavenServerImpl - Shutting down. Reason [MavenEmbedderFactory shutdown called in thread [TC: 14:57:41 Processing 99 listeners for serverShutdown; 14:57:41 Stage: TeamCity server is shutting down; TeamCity Server (version 2019.1.2 build 66342 started 2019-08-16 11:12:54.843), node id: MAIN_SERVER]] 
+[2019-08-19 14:57:43,209]   INFO - r.maven.remote.MavenServerImpl - Shutdown sequence complete 
+[2019-08-19 14:57:43,211]   INFO - r.maven.remote.MavenServerImpl - The JVM is shutting down. 

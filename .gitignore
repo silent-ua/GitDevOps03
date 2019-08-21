@@ -1,6 +1,6 @@
 data/**
 agent/**
-/documentation
-/Incoices
+documentation/**
+Incoices/**
 logs/**
 excercises/*

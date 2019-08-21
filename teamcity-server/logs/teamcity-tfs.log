@@ -1,0 +1,4 @@
+[2019-08-20 12:05:31,567]   INFO - vcs.tfs.pool.TfsPoolTerminator - Terminating TFS .net sessions
+[2019-08-20 12:05:31,567]   INFO - s.java.TfsJavaRunnerTerminator - Terminating TFS java sessions
+[2019-08-20 14:37:46,966]   INFO - vcs.tfs.pool.TfsPoolTerminator - Terminating TFS .net sessions
+[2019-08-20 14:37:46,973]   INFO - s.java.TfsJavaRunnerTerminator - Terminating TFS java sessions
