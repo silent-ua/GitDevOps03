@@ -3,4 +3,8 @@ agent/**
 documentation/**
 Incoices/**
 logs/**
-excercises/*
+excercises/**
+nexus-data/**
+teamcity/**
+teamcity-server/**
+
