@@ -1,0 +1,1 @@
+21-Aug-2019 12:26:15.359 INFO [TC: 12:26:15 Stage: TeamCity server is shutting down; TeamCity Server (version 2019.1.2 build 66342 started 2019-08-20 14:39:22.113), node id: MAIN_SERVER] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'buildServer'

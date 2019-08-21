@@ -25,3 +25,5 @@
 [2019-08-21 09:46:27,109]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=2, configuration={id=GitDevOps03_GitDevOps03, internal id=bt1}, queued}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user')}
 [2019-08-21 09:46:27,257]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #2 {promotion id=2, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-21 09:46:27.189, running}
 [2019-08-21 09:46:56,083]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #2 {promotion id=2, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-21 09:46:32.726, finished. Status "NORMAL 'Running'"}
+[2019-08-21 12:26:15,360]   INFO - tbrains.buildServer.ACTIVITIES - Shutdown Spring components
+[2019-08-21 12:26:16,862]   INFO - tbrains.buildServer.ACTIVITIES - Spring components are shut down

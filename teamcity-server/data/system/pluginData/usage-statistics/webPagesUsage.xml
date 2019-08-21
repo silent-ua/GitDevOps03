@@ -18,7 +18,7 @@
     <usage userId="1" timestamp="1566299553838" />
   </page>
   <page path="/favoriteIcon.html">
-    <usage userId="1" timestamp="1566311642771" />
+    <usage userId="1" timestamp="1566387953170" />
   </page>
   <page path="/admin/editBuildFailureConditions.html">
     <usage userId="1" timestamp="1566311441090" />
@@ -30,13 +30,19 @@
     <usage userId="1" timestamp="1566299471244" />
   </page>
   <page path="/admin/editBuildRunners.html">
-    <usage userId="1" timestamp="1566311598586" />
+    <usage userId="1" timestamp="1566380785662" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeChangeLog">
+    <usage userId="1" timestamp="1566388334784" />
   </page>
   <page path="/viewLog.html?tab=buildLog">
-    <usage userId="1" timestamp="1566311647870" />
+    <usage userId="1" timestamp="1566380794483" />
   </page>
   <page path="/limitedPendingChangesLink.html">
     <usage userId="1" timestamp="1566310073478" />
+  </page>
+  <page path="/viewLog.html?tab=buildResultsDiv">
+    <usage userId="1" timestamp="1566387958489" />
   </page>
   <page path="/admin/editProject.html?tab=projectVcsRoots">
     <usage userId="1" timestamp="1566299851068" />
@@ -48,10 +54,10 @@
     <usage userId="1" timestamp="1566311442215" />
   </page>
   <page path="/admin/editRunType.html">
-    <usage userId="1" timestamp="1566311535676" />
+    <usage userId="1" timestamp="1566380779582" />
   </page>
   <page path="/agents.html">
-    <usage userId="1" timestamp="1566311094687" />
+    <usage userId="1" timestamp="1566380788746" />
   </page>
   <page path="/viewType.html?tab=buildTypeSettings">
     <usage userId="1" timestamp="1566311393489" />
@@ -72,13 +78,13 @@
     <usage userId="1" timestamp="1566311088545" />
   </page>
   <page path="/viewType.html">
-    <usage userId="1" timestamp="1566311389434" />
+    <usage userId="1" timestamp="1566387961418" />
   </page>
   <page path="/">
     <usage userId="1" timestamp="1566311387988" />
   </page>
   <page path="/admin/editBuildFeatures.html">
-    <usage userId="1" timestamp="1566311600006" />
+    <usage userId="1" timestamp="1566380738536" />
   </page>
   <page path="/agents.html?tab=agent.push">
     <usage userId="1" timestamp="1566310271317" />
@@ -93,10 +99,13 @@
     <usage userId="1" timestamp="1566299461259" />
   </page>
   <page path="/admin/buildTypeHealthStatusItems.html">
-    <usage userId="1" timestamp="1566311632396" />
+    <usage userId="1" timestamp="1566380786436" />
   </page>
   <page path="/admin/editBuildTypeVcsRoots.html">
-    <usage userId="1" timestamp="1566299541483" />
+    <usage userId="1" timestamp="1566380765109" />
+  </page>
+  <page path="/viewType.html?tab=buildTypeStatusDiv">
+    <usage userId="1" timestamp="1566388339021" />
   </page>
   <page path="/viewLog.html">
     <usage userId="1" timestamp="1566311644268" />
@@ -114,7 +123,10 @@
     <usage userId="1" timestamp="1566310202925" />
   </page>
   <page path="/buildTypeHealthStatusItems.html">
-    <usage userId="1" timestamp="1566311394210" />
+    <usage userId="1" timestamp="1566388339826" />
+  </page>
+  <page path="/buildResultsSummary.html">
+    <usage userId="1" timestamp="1566380792201" />
   </page>
   <page path="/admin/editProject.html?tab=projectSuggestions">
     <usage userId="1" timestamp="1566299853885" />

@@ -654,3 +654,38 @@
 [2019-08-21 09:46:56,020]   INFO -   jetbrains.buildServer.SERVER - Start loading cache of build committers...
 [2019-08-21 09:46:56,032]   INFO -   jetbrains.buildServer.SERVER - Done loading cache of build committers
 [2019-08-21 09:46:56,083]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #2 {promotion id=2, agent="agent_first" {id=1}, triggered by "'anton' (Anton Nichaienko) {id=1}" (##userId='1' type='user'). Started 2019-08-21 09:46:32.726, finished. Status "NORMAL 'Running'"}
+[2019-08-21 12:26:15,258]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown event received
+[2019-08-21 12:26:15,258]   INFO -  jetbrains.buildServer.STARTUP - Current stage: TeamCity server is shutting down
+[2019-08-21 12:26:15,259]   INFO -  jetbrains.buildServer.STARTUP - Stopping the main application
+[2019-08-21 12:26:15,359]   INFO -  jetbrains.buildServer.STARTUP - Destroying the main servlet
+[2019-08-21 12:26:15,359]   INFO - MainTeamCityApplicationContext - Closing WebApplicationContext for namespace 'buildServer-servlet': startup date [Tue Aug 20 14:39:23 GMT 2019]; parent: TeamCity Root WebApplicationContext
+[2019-08-21 12:26:15,360]   INFO - tbrains.buildServer.ACTIVITIES - Shutdown Spring components
+[2019-08-21 12:26:15,361]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Ping 1"
+[2019-08-21 12:26:15,361]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Flush Queue 1"
+[2019-08-21 12:26:15,361]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Build Triggers Monitor 1"
+[2019-08-21 12:26:15,361]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Ping 1"
+[2019-08-21 12:26:15,361]   INFO -   jetbrains.buildServer.SERVER - Start shutdown of the thread "Build Triggers Monitor 1"
+[2019-08-21 12:26:15,364]   INFO -   jetbrains.buildServer.SERVER - Saving projects credentials on disk ...
+[2019-08-21 12:26:15,364]   INFO -   jetbrains.buildServer.SERVER - Saving projects credentials on disk finished
+[2019-08-21 12:26:15,364]   INFO - ojects.BackgroundPersisterImpl - Shutdown background persister
+[2019-08-21 12:26:15,623]   INFO - ojects.BackgroundPersisterImpl - Background persister shutdown complete
+[2019-08-21 12:26:15,686]   INFO - Server.serverSide.TmpFilesImpl - Delete temp files on server shutdown
+[2019-08-21 12:26:16,154]   INFO - Server.serverSide.TmpFilesImpl - Temp files were deleted in 467ms
+[2019-08-21 12:26:16,154]   INFO - .index.BuildIndexer (metadata) - Background build indexer finished
+[2019-08-21 12:26:16,273]   INFO -   jetbrains.buildServer.SERVER - Finishing pending agents long-polling requests
+[2019-08-21 12:26:16,323]   INFO - ld.index.BuildIndexer (search) - Background build indexer finished
+[2019-08-21 12:26:16,748]   INFO - rShutdownProcessTerminatorImpl - Start killing all child processes. To disable it set 'teamcity.kill.child.processes.on.shutdown' JVM property to 'false'
+[2019-08-21 12:26:16,773]   INFO - rocesses.ProcessTreeTerminator - Using jetbrains.buildServer.processes.ProcessTreeTerminatorLinux
+[2019-08-21 12:26:16,774]   INFO - .ProcessTreeTerminatorImplBase - Will use command 'sh -c echo $$ && ps awwxo pid,ppid,command | tee'.
+[2019-08-21 12:26:16,835]   INFO - .ProcessTreeTerminatorImplBase - Will use command 'sh -c echo $$ && ps awwxo pid,ppid,command | tee'.
+[2019-08-21 12:26:16,859]   INFO - ses.ProcessTreeTerminatorLinux - Second thread id is 125
+[2019-08-21 12:26:16,859]   INFO - ses.ProcessTreeTerminatorLinux - Thread is Process thread model: false
+[2019-08-21 12:26:16,859]   INFO - .ProcessTreeTerminatorImplBase - Collecting processes from the current one, current process PID 125
+[2019-08-21 12:26:16,860]   INFO - .ProcessTreeTerminatorImplBase - No processes to kill
+[2019-08-21 12:26:16,862]   INFO - tbrains.buildServer.ACTIVITIES - Spring components are shut down
+[2019-08-21 12:26:16,866]   INFO - til.ChildSpringContextLoader$1 - Closing SubContext (BuildAgentUpgrade): startup date [Tue Aug 20 14:39:39 GMT 2019]; parent: WebApplicationContext for namespace 'buildServer-servlet'
+[2019-08-21 12:26:16,966]   INFO -  jetbrains.buildServer.STARTUP - The main servlet destroyed
+[2019-08-21 12:26:16,968]   INFO - ide.db.TeamCityDatabaseManager - Performing shutdown on HSQL database...
+[2019-08-21 12:26:17,138]   INFO - ide.db.TeamCityDatabaseManager - HSQL database shutdown performed successfully.
+[2019-08-21 12:26:17,140]   INFO -  jetbrains.buildServer.STARTUP - Version file lock was released: /opt/teamcity/webapps/ROOT/BUILD_66342
+[2019-08-21 12:26:17,140]   INFO -  jetbrains.buildServer.STARTUP - Server shutdown complete. Uptime was 21h:46m

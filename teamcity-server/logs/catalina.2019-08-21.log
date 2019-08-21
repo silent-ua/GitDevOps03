@@ -1,0 +1,12 @@
+21-Aug-2019 12:26:13.230 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Aug-2019 12:26:13.232 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+21-Aug-2019 12:26:13.245 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Aug-2019 12:26:17.209 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Aug-2019 12:26:17.209 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-Aug-2019 12:26:17.210 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Agent Long-Polling Timeout 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ jetbrains.buildServer.controllers.agentServer.LongPollingCommandsRequestsProcessor.lambda$new$1(LongPollingCommandsRequestsProcessor.java:20)
+ jetbrains.buildServer.controllers.agentServer.LongPollingCommandsRequestsProcessor$$Lambda$170/279155925.run(Unknown Source)
+ java.lang.Thread.run(Thread.java:748)
+21-Aug-2019 12:26:17.216 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+21-Aug-2019 12:26:17.218 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]
