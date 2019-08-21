@@ -27,4 +27,5 @@ docker run -it --name teamcity-server-instance  \
 docker run  -d -it -e SERVER_URL="172.17.0.1:8111" -v /home/anton/devops/GitDevOps03/agent/conf:/data/teamcity_agent/conf -v /var/run/docker.sock:/var/run/docker.sock jetbrains/teamcity-agent
 
 
+EOF
 
