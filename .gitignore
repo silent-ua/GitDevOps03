@@ -8,5 +8,7 @@ nexus-data/**
 teamcity/**
 teamcity-server/**
 teamcity-server/*/*/
+teamcity-server/data/**
+teamcity-server/logs/**
 
 
