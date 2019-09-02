@@ -3,13 +3,16 @@
   <name>GitDevOps03</name>
   <description />
   <settings>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_2" />
+    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="build docker image" type="DockerCommand">
         <parameters>
           <param name="command.args" value="--pull" />
           <param name="docker.command.type" value="build" />
-          <param name="docker.image.namesAndTags" value="silentua/gitdevops03:%build.counter%" />
+          <param name="docker.image.namesAndTags" value="testdevops.pp.ua:8090/repository/silentua/gitdevops03:%build.counter%" />
           <param name="docker.push.remove.image" value="true" />
           <param name="dockerImage.platform" value="linux" />
           <param name="dockerfile.path" value="Dockerfile_nginx" />
@@ -17,11 +20,27 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
-      <runner id="RUNNER_2" name="Push docker image to Nexus locally" type="DockerCommand">
+      <runner id="RUNNER_4" name="login to local repository" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="docker login -u admin -p vTldtLb9 testdevops.pp.ua:8090/repository/silentua" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_2" name="Push docker image to docker hub" type="DockerCommand">
         <parameters>
           <param name="docker.command.type" value="push" />
           <param name="docker.image.namesAndTags" value="silentua/gitdevops03:%build.counter%" />
           <param name="docker.push.remove.image" value="true" />
+          <param name="dockerfile.source" value="PATH" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_3" name="Push docker image to Nexus locally (1)" type="DockerCommand">
+        <parameters>
+          <param name="docker.command.type" value="push" />
+          <param name="docker.image.namesAndTags" value="testdevops.pp.ua:8090/repository/silentua/gitdevops03:%build.counter%" />
+          <param name="docker.sub.command" value="push 172.20.100.141:8443/repository/silentua/gitdevops03:%build.counter%" />
           <param name="dockerfile.source" value="PATH" />
           <param name="teamcity.step.mode" value="default" />
         </parameters>
@@ -43,8 +62,7 @@
     <build-extensions>
       <extension id="DockerSupport" type="DockerSupport">
         <parameters>
-          <param name="login2registry" value="PROJECT_EXT_2" />
-          <param name="loginCheckbox" value="on" />
+          <param name="cleanupPushed" value="true" />
         </parameters>
       </extension>
     </build-extensions>

@@ -11,6 +11,15 @@
         <param name="type" value="BuildReportTab" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_6" type="OAuthProvider">
+      <parameters>
+        <param name="displayName" value="local Nexus" />
+        <param name="providerType" value="Docker" />
+        <param name="repositoryUrl" value="https://testdevops.pp.ua:8090/repository/silentua/" />
+        <param name="secure:userPass" value="zxxf6c05e60863bc907" />
+        <param name="userName" value="deploy" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup>
     <options>

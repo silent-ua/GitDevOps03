@@ -7,4 +7,5 @@ excercises/**
 nexus-data/**
 teamcity/**
 teamcity-server/**
+teamcity-server/*/*/*/*
 
