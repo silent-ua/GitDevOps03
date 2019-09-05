@@ -7,10 +7,11 @@ excercises/**
 nexus-data/**
 teamcity/**
 teamcity-server/**
-teamcity-server/*/*/
+teamcity-server/**/*.log
 teamcity-server/data/**
 teamcity-server/logs/**
-teamcity-server/data/system/*
+teamcity-server/data/system/
+teamcity-server/data/system/**
 .gitignore
 certs/**
 

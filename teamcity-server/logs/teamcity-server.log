@@ -2611,3 +2611,15 @@ Unauthorized; exit code 1 (Step: Push docker image to Nexus locally (1) (Docker)
 [2019-09-05 13:41:34,568]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #41 {build id=41, buildTypeId=GitDevOps03_GitDevOps03}
 [2019-09-05 13:41:34,570]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 41, finish date: 2019-09-05 13:41:34.523
 [2019-09-05 13:41:34,575]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #41 {promotion id=41, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-09-05 13:41:23.782, finished. Status "NORMAL 'Running'"}
+[2019-09-05 13:59:03,586]   INFO - ity.BuildQueuePriorityOrdering - New item Queued build {item id=42, promotion=Build promotion {promotion id=42, configuration={id=GitDevOps03_GitDevOps03, internal id=bt1}}} with weight 0.00 inserted at the default position 0 in the end of the queue
+[2019-09-05 13:59:03,587]   INFO - tbrains.buildServer.ACTIVITIES - Build added to queue; Queued build {Build promotion {promotion id=42, configuration={id=GitDevOps03_GitDevOps03, internal id=bt1}, queued}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs')}
+[2019-09-05 13:59:03,597]   INFO -   jetbrains.buildServer.SERVER - Running build saved to DB: build id=42, promotion id=42
+[2019-09-05 13:59:03,601]   INFO - tbrains.buildServer.ACTIVITIES - Build started; GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #42 {promotion id=42, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-09-05 13:59:03.595, running}
+[2019-09-05 13:59:03,602]   INFO -   jetbrains.buildServer.SERVER - Build removed from queue (started): 42
+[2019-09-05 13:59:03,606]   INFO -   jetbrains.buildServer.SERVER - Flush queue finished in 13ms, number of builds started: 1
+[2019-09-05 13:59:10,366]   INFO -   jetbrains.buildServer.SERVER - Build finished received for build: #42 {build id=42, buildTypeId=GitDevOps03_GitDevOps03}
+[2019-09-05 13:59:10,366]   INFO -   jetbrains.buildServer.SERVER - Created finish build task for build: #42 {build id=42, buildTypeId=GitDevOps03_GitDevOps03}, task id: 27
+[2019-09-05 13:59:10,366]   INFO -   jetbrains.buildServer.SERVER - Build scheduled for finishing: #42 {build id=42, buildTypeId=GitDevOps03_GitDevOps03}
+[2019-09-05 13:59:10,369]   INFO - ndexer.EventBasedBuildsIndexer - Indexing finishing build: #42 {build id=42, buildTypeId=GitDevOps03_GitDevOps03}
+[2019-09-05 13:59:10,370]   INFO - de.impl.history.DBBuildHistory - Created build history entry; build id: 42, finish date: 2019-09-05 13:59:10.322
+[2019-09-05 13:59:10,376]   INFO - tbrains.buildServer.ACTIVITIES - Finished build GitDevOps03 / GitDevOps03 {id=GitDevOps03_GitDevOps03, internal id=bt1} #42 {promotion id=42, agent="agent_first" {id=1}, triggered by "Git" (##vcsName='jetbrains.git' type='vcs'). Started 2019-09-05 13:59:04.226, finished. Status "NORMAL 'Running'"}
