@@ -12,5 +12,5 @@ teamcity-server/data/**
 teamcity-server/logs/**
 teamcity-server/data/system/*
 .gitignore
-
+certs/**
 
