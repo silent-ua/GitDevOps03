@@ -201,3 +201,26 @@ Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemo
 	deleted:    certs/domain.key
  by spaceantoxa
 [2019-09-05 13:59:03,602]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=42, configuration={id=GitDevOps03_GitDevOps03, internal id=bt1}}
+[2019-09-05 14:14:07,437]   INFO [ical executor 2] -      jetbrains.buildServer.VCS - Collecting changes for VCS root "https://github.com/silent-ua/GitDevOps03.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=GitDevOps03_HttpsGithubComSilentUaGitDevOps03gitRefsHeadsMaster, description: "https://github.com/silent-ua/GitDevOps03.git#refs/heads/master"} from state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 7860b2663eb0494dbe5cd8d4ba5ec2f09315bd56}} to state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 9b741765b9b0576ffa936d5227a9fae295b5caa7}}, requested by: Periodical run by the schedule
+[2019-09-05 14:14:11,629]   INFO [ical executor 2] - ggers.vcs.git.FetchCommandImpl - Git fetch process finished for: https://silentua@github.com/silent-ua/GitDevOps03.git in directory: /data/teamcity_server/datadir/system/caches/git/git-A4D3E6C2.git, took 3647ms
+[2019-09-05 14:14:11,630]   WARN [ical executor 2] - ggers.vcs.git.FetchCommandImpl - Error output produced by git fetch:
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap
+
+[2019-09-05 14:14:11,642]   INFO [ical executor 2] -      jetbrains.buildServer.VCS - Finish collecting changes successfully for VCS root "https://github.com/silent-ua/GitDevOps03.git#refs/heads/master" {instance id=1, parent internal id=1, parent id=GitDevOps03_HttpsGithubComSilentUaGitDevOps03gitRefsHeadsMaster, description: "https://github.com/silent-ua/GitDevOps03.git#refs/heads/master"} from state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 7860b2663eb0494dbe5cd8d4ba5ec2f09315bd56}} to state RepositoryState{defaultBranch='refs/heads/master', revisions={refs/heads/master: 9b741765b9b0576ffa936d5227a9fae295b5caa7}}; 1 changes collected 1 changes persisted, total time: 4s,206ms, persisting time: 5ms, requested by: Periodical run by the schedule
+[2019-09-05 14:14:23,933]   INFO [gers executor 1] - ers.vcs.SingleBranchVcsTrigger - Enqueue BuildPromotion{myId=43, myPersonal=false, myBuildTypeId='bt1', myModificationId=null, myRevisions=[], myAssociatedBuildId=null, myBranch=null} reason: pending changes detected, the last change accepted by trigger rules [9b741765b9b0576ffa936d5227a9fae295b5caa7] 	deleted:    logs/catalina.2019-08-16.log
+	deleted:    logs/host-manager.2019-08-16.log
+	deleted:    logs/localhost.2019-08-16.log
+	deleted:    logs/manager.2019-08-16.log
+	deleted:    logs/teamcity-activities.log
+	deleted:    logs/teamcity-auth.log
+	deleted:    logs/teamcity-cleanup.log
+	deleted:    logs/teamcity-javaLogging-2019-08-16.log
+	deleted:    logs/teamcity-mavenServer.log
+	deleted:    logs/teamcity-notifications.log
+	deleted:    logs/teamcity-rest.log
+	deleted:    logs/teamcity-server.log
+	deleted:    logs/teamcity-vcs.log
+	deleted:    logs/teamcity-wrapper.log
+	deleted:    logs/teamcity-ws.log
+ by spaceantoxa
+[2019-09-05 14:14:23,948]   INFO [ti node tasks 1] -      jetbrains.buildServer.VCS - Accepted the checking for changes task for build promotion: Build promotion {promotion id=43, configuration={id=GitDevOps03_GitDevOps03, internal id=bt1}}
