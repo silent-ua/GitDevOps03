@@ -11,4 +11,4 @@ soup = BeautifulSoup(doc.text, 'html.parser')
 
 result = []
 
-for i in soup.find_all('article', class_='quote'):
+for i in soup.find_all('article', class_='photo-item'):
